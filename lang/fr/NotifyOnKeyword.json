@@ -1,0 +1,6 @@
+{
+  "UseKeywordMsg": "{0} a utilisé votre mot clef.",
+  "MsgKeywordMsg": "le message était : {0}",
+  "NullMsg": "Activité sur le chat détectée, mais aucun mot clé défini.",
+  "ToDiscordMsg": "--- VOTRE MOT CLE A ETE UTILISE par {0} | message - {1}"
+}

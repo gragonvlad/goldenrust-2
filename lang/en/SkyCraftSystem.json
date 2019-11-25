@@ -1,0 +1,12 @@
+{
+  "TITLE_TEXT": "<size=30>The system of creating useful items</size>",
+  "TITLE_DESC": "<size=16>Select an available item and go to craft</size>",
+  "INTERFACE_BTN": "<size=20>Select</size>",
+  "INTERFACE_WORKBENCHLEVEL": "<size=14>WorkBench-level {0}</size>",
+  "INTERFACE_WORKBENCHLEVELNULL": "<size=14>No workbench</size>",
+  "INTERFACEACTION_TITLE": "<size=30>Item Creation Menu : {0}</size>",
+  "INTERFACEACTION_BTN": "<size=20>Create</size>",
+  "INTERFACEACTION_NO_WORKBENCH_BTN": "<size=16>Go to the workbench</size>",
+  "INTERFACEACTION_NO_RESOURCE_BTN": "<size=16>Not enough resources</size>",
+  "INTERFACEACTION_COLLECTED_RESORUCE": "<size=18>Collected</size>"
+}

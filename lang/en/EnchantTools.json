@@ -1,0 +1,13 @@
+{
+  "PermissionAdmin": "You don't have permission to use this command.",
+  "MultiplePlayer": "Multiple players found: {0}",
+  "PlayerIsNotFound": "The player with the name {0} was not found.",
+  "UsageSyntax": "Usage command syntax: \n<color=#FF99CC>{0} <tool_name> <playerName or Id></color>\nAvailable tools names:\n{1}",
+  "ToolGiven": "{0} received enchanted tool: {1}.",
+  "CantRepeair": "You can't repair an enchanted tools.",
+  "ConsoleNotAvailable": "This command available only from server console or rcon.",
+  "ConsoleNoPlayerFound": "No player with the specified SteamID was found.",
+  "ConsoleNoPlayerAlive": "The player with the specified ID was not found among active or sleeping players.",
+  "ConsoleToolGiven": "{0} received enchanted tool {1}.",
+  "ConsoleUsageSyntax": "Usage command syntax: \n<color=#FF99CC>{0} <tool_name> <steamId></color>\nAvailable tools names:\n{1}"
+}

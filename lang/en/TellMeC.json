@@ -1,0 +1,11 @@
+{
+  "StartTellMeCMsg": "Tell to me THE good pair you see ! (ex: <color=yellow>/color white</color>)",
+  "NextTellMeCMsg": "The game restarts every ",
+  "AlreadyTellMeCMsg": "You have already played on this round !\n",
+  "InvalidTellMeCMsg": "Invalid entry.\nTry something like /c white",
+  "WonTellMeCMsg": "did find the color to see !\nand has won :",
+  "EndTellMeCMsg": "The good color was ",
+  "ExpiredTellMeCMsg": "was not found in time !",
+  "LoseTellMeCMsg": "This is NOT THE RIGHT COLOR... for trying you won ",
+  "SorryErrorMsg": "Sorry an error has occured ! Please Tell BuzZ[PHOQUE] about this Thank you !. Item to give was null. gift was : "
+}

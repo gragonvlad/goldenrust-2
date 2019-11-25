@@ -1,0 +1,6 @@
+{
+  "UseKeywordMsg": "{0} has used your keyword.",
+  "MsgKeywordMsg": "the message was : {0}",
+  "NullMsg": "Chat activity detected, but your keyword is null.",
+  "ToDiscordMsg": "--- YOUR KEYWORD HAS BEEN USED by {0} | message was - {1}"
+}

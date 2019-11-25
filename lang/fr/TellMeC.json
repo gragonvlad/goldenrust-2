@@ -1,0 +1,11 @@
+{
+  "StartTellMeCMsg": "Un mot a sa bonne couleur, lequel ?! (exemple: <color=yellow>/color white</color>)",
+  "NextTellMeCMsg": "Un tirage de mots colorés a lieu toutes les ",
+  "AlreadyTellMeCMsg": "Vous avez déjà essayé sur ce tour !\n",
+  "InvalidTellMeCMsg": "Saisie invalide.\nEssayez quelque chose comme /c white",
+  "WonTellMeCMsg": "a trouvé la bonne couleur !\net a gagné :",
+  "EndTellMeCMsg": "La couleur était : ",
+  "ExpiredTellMeCMsg": "n'a pas été trouvée à temps !",
+  "LoseTellMeCMsg": "Ce n'est pas la bonne couleur... pour cet essai, vous gagnez ",
+  "SorryErrorMsg": "Désolé il y a eu une erreur ! Touchez en un mot à BuzZ[PHOQUE] Merci !. L'obet à donner est null. 'gift' est : "
+}

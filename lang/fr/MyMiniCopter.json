@@ -1,0 +1,10 @@
+{
+  "AlreadyMsg": "Vous avez déjà un mini hélicoptère\nUtilisez la commande '/nomini' pour le supprimer.",
+  "SpawnedMsg": "Votre mini hélico est arrivé !\nUtilisez la commande '/nomini' pour le supprimer.",
+  "KilledMsg": "Votre mini hélico a disparu du monde.",
+  "NoPermMsg": "Vous n'êtes pas autorisé.",
+  "NoFoundMsg": "Vous n'avez pas de mini hélico actif",
+  "FoundMsg": "Votre mini hélico est situé à {0}.",
+  "CooldownMsg": "Vous devez attendre {0} secondes avant de créer un nouveau mini hélico.",
+  "BlockedMsg": "Vous ne pouvez pas faire apparaître ou aller chercher votre hélico lorsque la construction est bloquée."
+}

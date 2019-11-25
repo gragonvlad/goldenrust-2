@@ -1,0 +1,21 @@
+{
+  "Deposit": "Deposit",
+  "DepositAll": "All",
+  "DepositAmmo": "Ammo",
+  "DepositAttire": "Attire",
+  "DepositConstruction": "Construction",
+  "DepositExisting": "Existing",
+  "DepositFood": "Food",
+  "DepositItems": "Deployables",
+  "DepositMedical": "Medical",
+  "DepositResources": "Resources",
+  "DepositTools": "Tools",
+  "DepositTraps": "Traps",
+  "DepositWeapons": "Weapons",
+  "DepositComponents": "Components",
+  "DepositMisc": "Misc",
+  "LootAll": "Loot All",
+  "InvalidArg": "\"{0}\" is an invalid argument.",
+  "Edited": "\"{0}\" edited to: {1}",
+  "Help": "List Commands:\n/qs enabled \"true/false\" - enable/disable gui.\n/qs style \"center/lite/right/custom\" - change gui style.\n/qs conatiner \"main/wear/belt\" \"true/false\" - add/remove container type from the sort."
+}

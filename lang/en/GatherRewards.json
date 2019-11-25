@@ -1,0 +1,11 @@
+{
+  "ReceivedForGather": "You have received ${0} for gathering {1}.",
+  "LostForGather": "You have lost ${0} for gathering {1}.",
+  "ReceivedForKill": "You have received ${0} for killing a {1}.",
+  "LostForKill": "You have lost ${0} for killing a {1}.",
+  "NoPermission": "You have no permission to use this command.",
+  "Usage": "Usage: /{0} [value] [amount]",
+  "NotaNumber": "Error: value is not a number.",
+  "Success": "Successfully changed '{0}' to earn amount '{1}'.",
+  "ValueDoesNotExist": "Value '{0}' does not exist."
+}

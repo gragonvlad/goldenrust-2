@@ -1,0 +1,12 @@
+{
+  "TITLE_TEXT": "<size=30>Система создания полезных предметов</size>",
+  "TITLE_DESC": "<size=16>Bыберите доступный предмет и переходите к крафту</size>",
+  "INTERFACE_BTN": "<size=20>Выбрать</size>",
+  "INTERFACE_WORKBENCHLEVEL": "<size=14>Верстак {0} уровня</size>",
+  "INTERFACE_WORKBENCHLEVELNULL": "<size=14>Верстак не требуется</size>",
+  "INTERFACEACTION_TITLE": "<size=30>Mеню создания предмета : {0}</size>",
+  "INTERFACEACTION_BTN": "<size=20>Создать</size>",
+  "INTERFACEACTION_NO_WORKBENCH_BTN": "<size=16>Подойдите к верстаку</size>",
+  "INTERFACEACTION_NO_RESOURCE_BTN": "<size=16>Недостаточно ресурсов</size>",
+  "INTERFACEACTION_COLLECTED_RESORUCE": "<size=18>Собрано</size>"
+}

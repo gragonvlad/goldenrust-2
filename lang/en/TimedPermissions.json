@@ -1,0 +1,8 @@
+{
+  "No Permission": "You don't have permission to use this command.",
+  "Invalid Time Format": "Invalid Time Format: Ex: 1d12h30m | d = days, h = hours, m = minutes",
+  "Player Has No Info": "There is no info about this player.",
+  "Player Info": "Info about <color=#C4FF00>{player}</color>:\r\n<color=#C4FF00>Groups</color>: {groups}\r\n<color=#C4FF00>Permissions</color>: {permissions}",
+  "User Doesn't Have Permission": "{target} does not have permission '{permission}'.",
+  "User Isn't In Group": "{target} isn't in group '{group}'."
+}

@@ -1,0 +1,10 @@
+{
+  "AlreadyMsg": "You already have a mini helicopter.\nUse command '/nomini' to remove it.",
+  "SpawnedMsg": "Your mini copter has spawned !\nUse command '/nomini' to remove it.",
+  "KilledMsg": "Your mini copter has been removed/killed.",
+  "NoPermMsg": "You are not allowed to do this.",
+  "NoFoundMsg": "You do not have an active copter.",
+  "FoundMsg": "Your copter is located at {0}.",
+  "CooldownMsg": "You must wait {0} seconds before spawning a new mini copter.",
+  "BlockedMsg": "You cannot spawn or fetch your copter while building blocked."
+}

@@ -1,0 +1,6 @@
+{
+  "Welcome": "<size=17>Welcome to <color=#0099CC>{0}</color></size>\n--------------------------------------------\n<color=#0099CC>•</color> Type <color=#0099CC>/info</color> for all available commands\n<color=#0099CC>•</color> Read the server rules by typing <color=#0099CC>/info</color>\n<color=#0099CC>•</color> Have fun and respect other players",
+  "Joined": "<color=#37BC61>✔</color> {0} <color=#37BC61>joined the server</color> from <color=#37BC61>{1}</color>",
+  "JoinedUnknown": "<color=#37BC61>✔</color> {0} <color=#37BC61>joined the server</color>",
+  "Left": "<color=#FF4040>✘</color> {0} <color=#FF4040>left the server</color> ({1})"
+}

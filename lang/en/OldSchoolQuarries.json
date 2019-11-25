@@ -1,0 +1,9 @@
+{
+  "NoCommandPermission": "You do not have permission to use this command!",
+  "NoResources": "No resources found.",
+  "AnalysisHeader": "Mineral Analysis:",
+  "Analysis": "Item: {0}, Amount: {1} pM",
+  "AnalysisDetailed": "Item: {0}, Amount: {1}, Work Needed: {2}, Return: {3} pM",
+  "AnalysisFooter": "----------------------------------",
+  "ClearData": "Plugin data cleared."
+}
