@@ -1,0 +1,11 @@
+{
+  "Detailed_Analysis": false,
+  "Custom_Items": [
+    {
+      "shortname": "candycane",
+      "amount": 1,
+      "chance": 0.0,
+      "valid": true
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "Permissions for every Tool": false,
+  "Night Gatherrate": 3.0,
+  "Day Gatherrate": 2.0,
+  "Tools": {
+    "bone.club": 1.0,
+    "knife.bone": 1.0,
+    "longsword": 1.0,
+    "mace": 1.0,
+    "machete": 1.0,
+    "salvaged.cleaver": 1.0,
+    "salvaged.sword": 1.0,
+    "hatchet": 1.0,
+    "pickaxe": 1.0,
+    "rock": 1.0,
+    "axe.salvaged": 1.0,
+    "hammer.salvaged": 1.0,
+    "icepick.salvaged": 1.0,
+    "stonehatchet": 1.0,
+    "stone.pickaxe": 1.0,
+    "jackhammer": 1.0,
+    "chainsaw": 1.0
+  },
+  "BlackListItems": []
+}

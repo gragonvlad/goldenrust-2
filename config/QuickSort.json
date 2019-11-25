@@ -1,0 +1,20 @@
+{
+  "Default UI style (center, lite, right, custom)": "right",
+  "Loot all delay in seconds (0 to disable)": 0,
+  "Enable/Disable loot all on the sleepers": false,
+  "Enable/Disable container types": {
+    "Main": true,
+    "Wear": false,
+    "Belt": false
+  },
+  "Custom UI Settings": {
+    "AnchorMin": "0.637 0",
+    "AnchorMax": "0.845 0.146",
+    "Color": "0.5 0.5 0.5 0.33",
+    "ButtonsColor": "1 0.5 0 0.5",
+    "LootAllColor": "0 0.7 0 0.5",
+    "TextColor": "#FFFFFF",
+    "TextSize": 16,
+    "CategoriesTextSize": 14
+  }
+}

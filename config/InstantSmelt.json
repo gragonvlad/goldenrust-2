@@ -1,0 +1,7 @@
+{
+  "Command": "ismelt",
+  "A. Blacklist": [
+    "shortname here",
+    "another shortname"
+  ]
+}

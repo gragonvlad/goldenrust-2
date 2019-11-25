@@ -1,0 +1,20 @@
+{
+  "Chat Settings": {
+    "Color For Winner Name": "#4fffc7",
+    "Prefix": "[TellMeC] "
+  },
+  "Game length": {
+    "in seconds": "25"
+  },
+  "Game repeater": {
+    "Rate in seconds": "600"
+  },
+  "Rewards Settings": {
+    "RP Points on Lose": "1",
+    "RP Points on Win": "5",
+    "Use Server Rewards": "false"
+  },
+  "Settings": {
+    "SteamIDIcon": "76561198842641699"
+  }
+}

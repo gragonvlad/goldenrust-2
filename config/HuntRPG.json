@@ -1,0 +1,4789 @@
+{
+  "ADMINRESET": false,
+  "ALLOWEDENTITIES": [
+    "furnace",
+    "furnace.large",
+    "refinery_small_deployed",
+    "campfire",
+    "bbq"
+  ],
+  "CHATPREFIX": "<color=lightblue>Hunt</color>: {0}",
+  "DATA_VERSION": {
+    "Major": 1,
+    "Minor": 0,
+    "Patch": 1
+  },
+  "DEATHREDUCER": 0.05,
+  "DEFAULTHUD": 1,
+  "Defaults": {
+    "MaxLevel": 2002,
+    "SkillPointsGain": 1.0975,
+    "SkillPointsPerLevel": 2,
+    "StatPointsGain": 1.015,
+    "StatPointsPerLevel": 3
+  },
+  "DeleteProfileAfterOfflineDays": 0,
+  "ECOBOOST": 1,
+  "EXPRATETABLE": {
+    "Flesh": 5.0,
+    "Ore": 0.5,
+    "Tree": 0.5
+  },
+  "ITEMTABLE": {
+    "ammo.grenadelauncher.buckshot": {
+      "DisplayName": "40mm Shotgun Round",
+      "CanResearch": true,
+      "ItemCategory": "Ammunition"
+    },
+    "ammo.grenadelauncher.he": {
+      "DisplayName": "40mm HE Grenade",
+      "CanResearch": true,
+      "ItemCategory": "Ammunition"
+    },
+    "ammo.grenadelauncher.smoke": {
+      "DisplayName": "40mm Smoke Grenade",
+      "CanResearch": true,
+      "ItemCategory": "Ammunition"
+    },
+    "weapon.mod.8x.scope": {
+      "DisplayName": "16x Zoom Scope",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "rifle.ak": {
+      "DisplayName": "Assault Rifle",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "ammo.handmade.shell": {
+      "DisplayName": "Handmade Shell",
+      "CanResearch": true,
+      "ItemCategory": "Ammunition"
+    },
+    "ammo.pistol": {
+      "DisplayName": "Pistol Bullet",
+      "CanResearch": true,
+      "ItemCategory": "Ammunition"
+    },
+    "ammo.pistol.fire": {
+      "DisplayName": "Incendiary Pistol Bullet",
+      "CanResearch": true,
+      "ItemCategory": "Ammunition"
+    },
+    "ammo.pistol.hv": {
+      "DisplayName": "HV Pistol Ammo",
+      "CanResearch": true,
+      "ItemCategory": "Ammunition"
+    },
+    "ammo.rifle": {
+      "DisplayName": "5.56 Rifle Ammo",
+      "CanResearch": true,
+      "ItemCategory": "Ammunition"
+    },
+    "ammo.rifle.explosive": {
+      "DisplayName": "Explosive 5.56 Rifle Ammo",
+      "CanResearch": true,
+      "ItemCategory": "Ammunition"
+    },
+    "ammo.rifle.incendiary": {
+      "DisplayName": "Incendiary 5.56 Rifle Ammo",
+      "CanResearch": true,
+      "ItemCategory": "Ammunition"
+    },
+    "ammo.rifle.hv": {
+      "DisplayName": "HV 5.56 Rifle Ammo",
+      "CanResearch": true,
+      "ItemCategory": "Ammunition"
+    },
+    "ammo.rocket.basic": {
+      "DisplayName": "Rocket",
+      "CanResearch": true,
+      "ItemCategory": "Ammunition"
+    },
+    "ammo.rocket.fire": {
+      "DisplayName": "Incendiary Rocket",
+      "CanResearch": true,
+      "ItemCategory": "Ammunition"
+    },
+    "ammo.rocket.hv": {
+      "DisplayName": "High Velocity Rocket",
+      "CanResearch": true,
+      "ItemCategory": "Ammunition"
+    },
+    "ammo.rocket.smoke": {
+      "DisplayName": "Smoke Rocket WIP!!!!",
+      "CanResearch": true,
+      "ItemCategory": "Ammunition"
+    },
+    "ammo.shotgun": {
+      "DisplayName": "12 Gauge Buckshot",
+      "CanResearch": true,
+      "ItemCategory": "Ammunition"
+    },
+    "ammo.shotgun.fire": {
+      "DisplayName": "12 Gauge Incendiary Shell",
+      "CanResearch": true,
+      "ItemCategory": "Ammunition"
+    },
+    "ammo.shotgun.slug": {
+      "DisplayName": "12 Gauge Slug",
+      "CanResearch": true,
+      "ItemCategory": "Ammunition"
+    },
+    "electric.andswitch": {
+      "DisplayName": "AND Switch",
+      "CanResearch": true,
+      "ItemCategory": "Electrical"
+    },
+    "antiradpills": {
+      "DisplayName": "Anti-Radiation Pills",
+      "CanResearch": true,
+      "ItemCategory": "Medical"
+    },
+    "apple": {
+      "DisplayName": "Apple",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "apple.spoiled": {
+      "DisplayName": "Rotten Apple",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "arrow.bone": {
+      "DisplayName": "Bone Arrow",
+      "CanResearch": true,
+      "ItemCategory": "Ammunition"
+    },
+    "arrow.fire": {
+      "DisplayName": "Fire Arrow",
+      "CanResearch": true,
+      "ItemCategory": "Ammunition"
+    },
+    "arrow.hv": {
+      "DisplayName": "High Velocity Arrow",
+      "CanResearch": true,
+      "ItemCategory": "Ammunition"
+    },
+    "arrow.wooden": {
+      "DisplayName": "Wooden Arrow",
+      "CanResearch": true,
+      "ItemCategory": "Ammunition"
+    },
+    "electric.audioalarm": {
+      "DisplayName": "Audio Alarm",
+      "CanResearch": true,
+      "ItemCategory": "Electrical"
+    },
+    "autoturret": {
+      "DisplayName": "Auto Turret",
+      "CanResearch": true,
+      "ItemCategory": "Electrical"
+    },
+    "axe.salvaged": {
+      "DisplayName": "Salvaged Axe",
+      "CanResearch": true,
+      "ItemCategory": "Tool"
+    },
+    "bandage": {
+      "DisplayName": "Bandage",
+      "CanResearch": true,
+      "ItemCategory": "Medical"
+    },
+    "barrelcostume": {
+      "DisplayName": "A Barrel Costume",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "barricade.concrete": {
+      "DisplayName": "Concrete Barricade",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "barricade.metal": {
+      "DisplayName": "Metal Barricade",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "barricade.sandbags": {
+      "DisplayName": "Sandbag Barricade",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "barricade.stone": {
+      "DisplayName": "Stone Barricade",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "barricade.wood": {
+      "DisplayName": "Wooden Barricade",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "barricade.woodwire": {
+      "DisplayName": "Barbed Wooden Barricade",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "battery.small": {
+      "DisplayName": "Battery - Small",
+      "CanResearch": true,
+      "ItemCategory": "Resources"
+    },
+    "bbq": {
+      "DisplayName": "Barbeque",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "trap.bear": {
+      "DisplayName": "Snap Trap",
+      "CanResearch": true,
+      "ItemCategory": "Traps"
+    },
+    "bed": {
+      "DisplayName": "Bed",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "tool.binoculars": {
+      "DisplayName": "Binoculars",
+      "CanResearch": true,
+      "ItemCategory": "Tool"
+    },
+    "black.raspberries": {
+      "DisplayName": "Black Raspberries",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "bleach": {
+      "DisplayName": "Bleach",
+      "CanResearch": true,
+      "ItemCategory": "Component"
+    },
+    "blood": {
+      "DisplayName": "Blood",
+      "CanResearch": true,
+      "ItemCategory": "Medical"
+    },
+    "blueberries": {
+      "DisplayName": "Blueberries",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "blueprintbase": {
+      "DisplayName": "Blueprint",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "rifle.bolt": {
+      "DisplayName": "Bolt Action Rifle",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "bone.club": {
+      "DisplayName": "Bone Club",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "bone.fragments": {
+      "DisplayName": "Bone Fragments",
+      "CanResearch": true,
+      "ItemCategory": "Resources"
+    },
+    "botabag": {
+      "DisplayName": "Bota Bag",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "bow.hunting": {
+      "DisplayName": "Hunting Bow",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "box.wooden.large": {
+      "DisplayName": "Large Wood Box",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "box.wooden": {
+      "DisplayName": "Wood Storage Box",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "easter.bronzeegg": {
+      "DisplayName": "Bronze Egg",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "bucket.water": {
+      "DisplayName": "Water Bucket",
+      "CanResearch": true,
+      "ItemCategory": "Tool"
+    },
+    "building.planner": {
+      "DisplayName": "Building Plan",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "attire.bunny.onesie": {
+      "DisplayName": "Bunny Onesie",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "burlap.shirt": {
+      "DisplayName": "Burlap Shirt",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "burlap.shoes": {
+      "DisplayName": "Burlap Shoes",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "knife.butcher": {
+      "DisplayName": "Butcher Knife",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "electric.cabletunnel": {
+      "DisplayName": "Cable Tunnel",
+      "CanResearch": true,
+      "ItemCategory": "Electrical"
+    },
+    "cactusflesh": {
+      "DisplayName": "Cactus Flesh",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "cakefiveyear": {
+      "DisplayName": "Birthday Cake",
+      "CanResearch": true,
+      "ItemCategory": "Tool"
+    },
+    "tool.camera": {
+      "DisplayName": "Camera",
+      "CanResearch": true,
+      "ItemCategory": "Tool"
+    },
+    "campfire": {
+      "DisplayName": "Camp Fire",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "can.beans": {
+      "DisplayName": "Can of Beans",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "can.beans.empty": {
+      "DisplayName": "Empty Can Of Beans",
+      "CanResearch": true,
+      "ItemCategory": "Resources"
+    },
+    "can.tuna": {
+      "DisplayName": "Can of Tuna",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "can.tuna.empty": {
+      "DisplayName": "Empty Tuna Can",
+      "CanResearch": true,
+      "ItemCategory": "Resources"
+    },
+    "candycaneclub": {
+      "DisplayName": "Candy Cane Club",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "candycane": {
+      "DisplayName": "Candy Cane",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "cursedcauldron": {
+      "DisplayName": "Cursed Cauldron",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "cctv.camera": {
+      "DisplayName": "CCTV Camera",
+      "CanResearch": true,
+      "ItemCategory": "Resources"
+    },
+    "ceilinglight": {
+      "DisplayName": "Ceiling Light",
+      "CanResearch": true,
+      "ItemCategory": "Electrical"
+    },
+    "chainsaw": {
+      "DisplayName": "Chainsaw",
+      "CanResearch": true,
+      "ItemCategory": "Tool"
+    },
+    "chair": {
+      "DisplayName": "Chair",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "charcoal": {
+      "DisplayName": "Charcoal",
+      "CanResearch": true,
+      "ItemCategory": "Resources"
+    },
+    "chicken.burned": {
+      "DisplayName": "Burnt Chicken",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "chicken.cooked": {
+      "DisplayName": "Cooked Chicken",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "chicken.raw": {
+      "DisplayName": "Raw Chicken Breast",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "chicken.spoiled": {
+      "DisplayName": "Spoiled Chicken",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "chineselantern": {
+      "DisplayName": "Chinese Lantern",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "arcade.machine.chippy": {
+      "DisplayName": "Chippy Arcade Game",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "chocholate": {
+      "DisplayName": "Chocolate Bar",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "xmasdoorwreath": {
+      "DisplayName": "Christmas Door Wreath",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "cloth": {
+      "DisplayName": "Cloth",
+      "CanResearch": true,
+      "ItemCategory": "Resources"
+    },
+    "coal": {
+      "DisplayName": "Coal :(",
+      "CanResearch": true,
+      "ItemCategory": "Resources"
+    },
+    "coffin.storage": {
+      "DisplayName": "Coffin",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "bow.compound": {
+      "DisplayName": "Compound Bow",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "corn": {
+      "DisplayName": "Corn",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "clone.corn": {
+      "DisplayName": "Corn Clone",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "seed.corn": {
+      "DisplayName": "Corn Seed",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "electric.counter": {
+      "DisplayName": "Counter",
+      "CanResearch": true,
+      "ItemCategory": "Electrical"
+    },
+    "cratecostume": {
+      "DisplayName": "Crate Costume",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "crossbow": {
+      "DisplayName": "Crossbow",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "crude.oil": {
+      "DisplayName": "Crude Oil",
+      "CanResearch": true,
+      "ItemCategory": "Resources"
+    },
+    "cupboard.tool": {
+      "DisplayName": "Tool Cupboard",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "rf.detonator": {
+      "DisplayName": "RF Transmitter",
+      "CanResearch": true,
+      "ItemCategory": "Tool"
+    },
+    "diesel_barrel": {
+      "DisplayName": "Diesel Fuel",
+      "CanResearch": true,
+      "ItemCategory": "Resources"
+    },
+    "diving.fins": {
+      "DisplayName": "Diving Fins",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "diving.mask": {
+      "DisplayName": "Diving Mask",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "diving.tank": {
+      "DisplayName": "Diving Tank",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "diving.wetsuit": {
+      "DisplayName": "Wetsuit",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "door.double.hinged.metal": {
+      "DisplayName": "Sheet Metal Double Door",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "door.double.hinged.toptier": {
+      "DisplayName": "Armored Double Door",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "door.double.hinged.wood": {
+      "DisplayName": "Wood Double Door",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "door.hinged.metal": {
+      "DisplayName": "Sheet Metal Door",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "door.hinged.toptier": {
+      "DisplayName": "Armored Door",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "door.hinged.wood": {
+      "DisplayName": "Wooden Door",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "door.key": {
+      "DisplayName": "Door Key",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "door.closer": {
+      "DisplayName": "Door Closer",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "electric.doorcontroller": {
+      "DisplayName": "Door Controller",
+      "CanResearch": true,
+      "ItemCategory": "Electrical"
+    },
+    "xmas.door.garland": {
+      "DisplayName": "Festive Doorway Garland",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "dragondoorknocker": {
+      "DisplayName": "Dragon Door Knocker",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "dropbox": {
+      "DisplayName": "Drop Box",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "ducttape": {
+      "DisplayName": "Duct Tape",
+      "CanResearch": true,
+      "ItemCategory": "Component"
+    },
+    "easterbasket": {
+      "DisplayName": "Egg Basket",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "easterdoorwreath": {
+      "DisplayName": "Easter Door Wreath",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "electric.flasherlight": {
+      "DisplayName": "Flasher Light",
+      "CanResearch": true,
+      "ItemCategory": "Electrical"
+    },
+    "electric.sirenlight": {
+      "DisplayName": "Siren Light",
+      "CanResearch": true,
+      "ItemCategory": "Electrical"
+    },
+    "electric.blocker": {
+      "DisplayName": "Blocker",
+      "CanResearch": true,
+      "ItemCategory": "Electrical"
+    },
+    "electrical.branch": {
+      "DisplayName": "Electrical Branch",
+      "CanResearch": true,
+      "ItemCategory": "Electrical"
+    },
+    "electrical.combiner": {
+      "DisplayName": "Root Combiner",
+      "CanResearch": true,
+      "ItemCategory": "Electrical"
+    },
+    "electrical.memorycell": {
+      "DisplayName": "Memory Cell",
+      "CanResearch": true,
+      "ItemCategory": "Electrical"
+    },
+    "electric.random.switch": {
+      "DisplayName": "RAND Switch",
+      "CanResearch": true,
+      "ItemCategory": "Electrical"
+    },
+    "explosive.satchel": {
+      "DisplayName": "Satchel Charge",
+      "CanResearch": true,
+      "ItemCategory": "Tool"
+    },
+    "explosive.timed": {
+      "DisplayName": "Timed Explosive Charge",
+      "CanResearch": true,
+      "ItemCategory": "Tool"
+    },
+    "explosives": {
+      "DisplayName": "Explosives",
+      "CanResearch": true,
+      "ItemCategory": "Resources"
+    },
+    "facialhair.style01": {
+      "DisplayName": "m-facialhair01",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "fat.animal": {
+      "DisplayName": "Animal Fat",
+      "CanResearch": true,
+      "ItemCategory": "Resources"
+    },
+    "femalearmpithair.style01": {
+      "DisplayName": "f-armpit01",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "femaleeyebrow.style01": {
+      "DisplayName": "f-eyebrow01",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "femalepubichair.style01": {
+      "DisplayName": "f-pubic01",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "female_hairstyle_01": {
+      "DisplayName": "f-hairstyle-1",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "female_hairstyle_03": {
+      "DisplayName": "f-hairstyle-3",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "female_hairstyle_05": {
+      "DisplayName": "f-hairstyle-5",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "fireplace.stone": {
+      "DisplayName": "Stone Fireplace",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "fish.cooked": {
+      "DisplayName": "Cooked Fish",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "fish.raw": {
+      "DisplayName": "Raw Fish",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "fishingrod.handmade": {
+      "DisplayName": "Handmade Fishing Rod",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "flamethrower": {
+      "DisplayName": "Flame Thrower",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "flameturret": {
+      "DisplayName": "Flame Turret",
+      "CanResearch": true,
+      "ItemCategory": "Traps"
+    },
+    "flare": {
+      "DisplayName": "Flare",
+      "CanResearch": true,
+      "ItemCategory": "Tool"
+    },
+    "flashlight.held": {
+      "DisplayName": "Flashlight",
+      "CanResearch": true,
+      "ItemCategory": "Tool"
+    },
+    "weapon.mod.flashlight": {
+      "DisplayName": "Weapon flashlight",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "floor.grill": {
+      "DisplayName": "Floor grill",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "floor.ladder.hatch": {
+      "DisplayName": "Ladder Hatch",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "fogmachine": {
+      "DisplayName": "Fogger-3000",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "fridge": {
+      "DisplayName": "Fridge",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "boots.frog": {
+      "DisplayName": "Frog Boots",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "lowgradefuel": {
+      "DisplayName": "Low Grade Fuel",
+      "CanResearch": true,
+      "ItemCategory": "Resources"
+    },
+    "furnace": {
+      "DisplayName": "Furnace",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "furnace.large": {
+      "DisplayName": "Large Furnace",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "fuse": {
+      "DisplayName": "Electric Fuse",
+      "CanResearch": true,
+      "ItemCategory": "Component"
+    },
+    "gates.external.high.stone": {
+      "DisplayName": "High External Stone Gate",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "gates.external.high.wood": {
+      "DisplayName": "High External Wooden Gate",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "gears": {
+      "DisplayName": "Gears",
+      "CanResearch": true,
+      "ItemCategory": "Component"
+    },
+    "geiger.counter": {
+      "DisplayName": "Geiger Counter",
+      "CanResearch": true,
+      "ItemCategory": "Tool"
+    },
+    "electric.generator.small": {
+      "DisplayName": "Test Generator",
+      "CanResearch": true,
+      "ItemCategory": "Electrical"
+    },
+    "generator.wind.scrap": {
+      "DisplayName": "Wind Turbine",
+      "CanResearch": true,
+      "ItemCategory": "Electrical"
+    },
+    "giantcandycanedecor": {
+      "DisplayName": "Giant Candy Decor",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "giantlollipops": {
+      "DisplayName": "Giant Lollipop Decor",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "burlap.gloves.new": {
+      "DisplayName": "Burlap Gloves",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "burlap.gloves": {
+      "DisplayName": "Leather Gloves",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "roadsign.gloves": {
+      "DisplayName": "Roadsign Gloves",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "tactical.gloves": {
+      "DisplayName": "Tactical Gloves",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "gloweyes": {
+      "DisplayName": "Glowing Eyes",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "glue": {
+      "DisplayName": "Glue",
+      "CanResearch": true,
+      "ItemCategory": "Component"
+    },
+    "easter.goldegg": {
+      "DisplayName": "Gold Egg",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "granolabar": {
+      "DisplayName": "Granola Bar",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "gravestone": {
+      "DisplayName": "Gravestone",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "woodcross": {
+      "DisplayName": "Wooden Cross",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "wall.graveyard.fence": {
+      "DisplayName": "Graveyard Fence",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "grenade.beancan": {
+      "DisplayName": "Beancan Grenade",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "grenade.f1": {
+      "DisplayName": "F1 Grenade",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "fun.guitar": {
+      "DisplayName": "Acoustic Guitar",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "gunpowder": {
+      "DisplayName": "Gun Powder",
+      "CanResearch": true,
+      "ItemCategory": "Resources"
+    },
+    "habrepair": {
+      "DisplayName": "Hab Repair",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "male_hairstyle_01": {
+      "DisplayName": "m-hairstyle-1",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "female_hairstyle_02": {
+      "DisplayName": "f-hairstyle-2",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "halloween.mummysuit": {
+      "DisplayName": "Mummy Suit",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "scarecrow.suit": {
+      "DisplayName": "Scarecrow Suit",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "scarecrowhead": {
+      "DisplayName": "Scarecrow Wrap",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "halloween.candy": {
+      "DisplayName": "Halloween Candy",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "attire.hide.helterneck": {
+      "DisplayName": "Hide Halterneck",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "hammer": {
+      "DisplayName": "Hammer",
+      "CanResearch": true,
+      "ItemCategory": "Tool"
+    },
+    "hammer.salvaged": {
+      "DisplayName": "Salvaged Hammer",
+      "CanResearch": true,
+      "ItemCategory": "Tool"
+    },
+    "hat.beenie": {
+      "DisplayName": "Beenie Hat",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "hat.boonie": {
+      "DisplayName": "Boonie Hat",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "bucket.helmet": {
+      "DisplayName": "Bucket Helmet",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "attire.bunnyears": {
+      "DisplayName": "Bunny Ears",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "burlap.headwrap": {
+      "DisplayName": "Burlap Headwrap",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "hat.candle": {
+      "DisplayName": "Candle Hat",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "hat.cap": {
+      "DisplayName": "Baseball Cap",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "clatter.helmet": {
+      "DisplayName": "Clatter Helmet",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "coffeecan.helmet": {
+      "DisplayName": "Coffee Can Helmet",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "deer.skull.mask": {
+      "DisplayName": "Bone Helmet",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "hat.dragonmask": {
+      "DisplayName": "Dragon Mask",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "heavy.plate.helmet": {
+      "DisplayName": "Heavy Plate Helmet",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "hat.miner": {
+      "DisplayName": "Miners Hat",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "partyhat": {
+      "DisplayName": "Party Hat",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "attire.reindeer.headband": {
+      "DisplayName": "Reindeer Antlers",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "riot.helmet": {
+      "DisplayName": "Riot Helmet",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "hat.wolf": {
+      "DisplayName": "Wolf Headdress",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "wood.armor.helmet": {
+      "DisplayName": "Wood Armor Helmet",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "hatchet": {
+      "DisplayName": "Hatchet",
+      "CanResearch": true,
+      "ItemCategory": "Tool"
+    },
+    "hazmatsuit": {
+      "DisplayName": "Hazmat Suit",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "electric.hbhfsensor": {
+      "DisplayName": "HBHF Sensor",
+      "CanResearch": true,
+      "ItemCategory": "Electrical"
+    },
+    "clone.hemp": {
+      "DisplayName": "Hemp Clone",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "seed.hemp": {
+      "DisplayName": "Hemp Seed",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "attire.hide.boots": {
+      "DisplayName": "Hide Boots",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "attire.hide.skirt": {
+      "DisplayName": "Hide Skirt",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "attire.hide.vest": {
+      "DisplayName": "Hide Vest",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "hitchtroughcombo": {
+      "DisplayName": "Hitch & Trough",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "weapon.mod.holosight": {
+      "DisplayName": "Holosight",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "hoodie": {
+      "DisplayName": "Hoodie",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "horse.armor.roadsign": {
+      "DisplayName": "Roadsign Horse Armor",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "horse.armor.wood": {
+      "DisplayName": "Wooden Horse Armor",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "horse.saddlebag": {
+      "DisplayName": "Saddle bag",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "horse.shoes.advanced": {
+      "DisplayName": "High Quality Horse Shoes",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "horse.shoes.basic": {
+      "DisplayName": "Basic Horse Shoes",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "hq.metal.ore": {
+      "DisplayName": "High Quality Metal Ore",
+      "CanResearch": true,
+      "ItemCategory": "Resources"
+    },
+    "humanmeat.burned": {
+      "DisplayName": "Burnt Human Meat",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "humanmeat.cooked": {
+      "DisplayName": "Cooked Human Meat",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "humanmeat.raw": {
+      "DisplayName": "Raw Human Meat",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "humanmeat.spoiled": {
+      "DisplayName": "Spoiled Human Meat",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "icepick.salvaged": {
+      "DisplayName": "Salvaged Icepick",
+      "CanResearch": true,
+      "ItemCategory": "Tool"
+    },
+    "bone.armor.suit": {
+      "DisplayName": "Bone Armor",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "heavy.plate.jacket": {
+      "DisplayName": "Heavy Plate Jacket",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "jacket.snow": {
+      "DisplayName": "Snow Jacket",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "jacket": {
+      "DisplayName": "Jacket",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "jackhammer": {
+      "DisplayName": "Jackhammer",
+      "CanResearch": true,
+      "ItemCategory": "Tool"
+    },
+    "jackolantern.angry": {
+      "DisplayName": "Jack O Lantern Angry",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "jackolantern.happy": {
+      "DisplayName": "Jack O Lantern Happy",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "keycard_blue": {
+      "DisplayName": "Blue Keycard",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "keycard_green": {
+      "DisplayName": "Green Keycard",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "keycard_red": {
+      "DisplayName": "Red Keycard",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "knife.combat": {
+      "DisplayName": "Combat Knife",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "knife.bone": {
+      "DisplayName": "Bone Knife",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "rifle.l96": {
+      "DisplayName": "L96 Rifle",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "ladder.wooden.wall": {
+      "DisplayName": "Wooden Ladder",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "trap.landmine": {
+      "DisplayName": "Land Mine",
+      "CanResearch": true,
+      "ItemCategory": "Traps"
+    },
+    "lantern": {
+      "DisplayName": "Lantern",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "electric.battery.rechargable.large": {
+      "DisplayName": "Large Rechargable Battery",
+      "CanResearch": true,
+      "ItemCategory": "Electrical"
+    },
+    "largecandles": {
+      "DisplayName": "Large Candle Set",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "largemedkit": {
+      "DisplayName": "Large Medkit",
+      "CanResearch": true,
+      "ItemCategory": "Medical"
+    },
+    "electric.laserdetector": {
+      "DisplayName": "Laser Detector",
+      "CanResearch": true,
+      "ItemCategory": "Electrical"
+    },
+    "weapon.mod.lasersight": {
+      "DisplayName": "Weapon Lasersight",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "leather": {
+      "DisplayName": "Leather",
+      "CanResearch": true,
+      "ItemCategory": "Resources"
+    },
+    "lock.code": {
+      "DisplayName": "Code Lock",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "lock.key": {
+      "DisplayName": "Key Lock",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "locker": {
+      "DisplayName": "Locker",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "longsword": {
+      "DisplayName": "Longsword",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "halloween.lootbag.large": {
+      "DisplayName": "Large Loot Bag",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "halloween.lootbag.medium": {
+      "DisplayName": "Medium Loot Bag",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "halloween.lootbag.small": {
+      "DisplayName": "Small Loot Bag",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "rifle.lr300": {
+      "DisplayName": "LR-300 Assault Rifle",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "lmg.m249": {
+      "DisplayName": "M249",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "rifle.m39": {
+      "DisplayName": "M39 Rifle",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "pistol.m92": {
+      "DisplayName": "M92 Pistol",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "mace": {
+      "DisplayName": "Mace",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "machete": {
+      "DisplayName": "Machete",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "mailbox": {
+      "DisplayName": "Mail Box",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "male.facialhair.style02": {
+      "DisplayName": "m-facialhair02",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "male.facialhair.style03": {
+      "DisplayName": "m-facialhair03",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "male.facialhair.style04": {
+      "DisplayName": "m-facialhair04",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "male_hairstyle_02": {
+      "DisplayName": "m-hairstyle-2",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "male_hairstyle_04": {
+      "DisplayName": "m-hairstyle-4",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "malearmpithair.style01": {
+      "DisplayName": "m-armpit01",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "maleeyebrow.style01": {
+      "DisplayName": "m-eyebrow01",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "malepubichair.style01": {
+      "DisplayName": "m-pubic01",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "male_hairstyle_03": {
+      "DisplayName": "m-hairstyle-3",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "male_hairstyle_05": {
+      "DisplayName": "m-hairstyle-5",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "map": {
+      "DisplayName": "Paper Map",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "mask.balaclava": {
+      "DisplayName": "Improvised Balaclava",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "mask.bandana": {
+      "DisplayName": "Bandana Mask",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "metal.facemask": {
+      "DisplayName": "Metal Facemask",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "bearmeat.burned": {
+      "DisplayName": "Burnt Bear Meat",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "bearmeat.cooked": {
+      "DisplayName": "Cooked Bear Meat",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "bearmeat": {
+      "DisplayName": "Raw Bear Meat",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "deermeat.burned": {
+      "DisplayName": "Burnt Deer Meat",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "deermeat.cooked": {
+      "DisplayName": "Cooked Deer Meat",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "deermeat.raw": {
+      "DisplayName": "Raw Deer Meat",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "horsemeat.burned": {
+      "DisplayName": "Burnt Horse Meat",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "horsemeat.cooked": {
+      "DisplayName": "Cooked Horse Meat",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "horsemeat.raw": {
+      "DisplayName": "Raw Horse Meat",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "meat.pork.burned": {
+      "DisplayName": "Burnt Pork",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "meat.pork.cooked": {
+      "DisplayName": "Cooked Pork",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "meat.boar": {
+      "DisplayName": "Raw Pork",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "wolfmeat.burned": {
+      "DisplayName": "Burnt Wolf Meat",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "wolfmeat.cooked": {
+      "DisplayName": "Cooked Wolf Meat",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "wolfmeat.raw": {
+      "DisplayName": "Raw Wolf Meat",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "wolfmeat.spoiled": {
+      "DisplayName": "Spoiled Wolf Meat",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "metal.fragments": {
+      "DisplayName": "Metal Fragments",
+      "CanResearch": true,
+      "ItemCategory": "Resources"
+    },
+    "metal.ore": {
+      "DisplayName": "Metal Ore",
+      "CanResearch": true,
+      "ItemCategory": "Resources"
+    },
+    "metal.plate.torso": {
+      "DisplayName": "Metal Chest Plate",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "metal.refined": {
+      "DisplayName": "High Quality Metal",
+      "CanResearch": true,
+      "ItemCategory": "Resources"
+    },
+    "metalblade": {
+      "DisplayName": "Metal Blade",
+      "CanResearch": true,
+      "ItemCategory": "Component"
+    },
+    "metalpipe": {
+      "DisplayName": "Metal Pipe",
+      "CanResearch": true,
+      "ItemCategory": "Component"
+    },
+    "multiplegrenadelauncher": {
+      "DisplayName": "Multiple Grenade Launcher",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "minihelicopter.repair": {
+      "DisplayName": "MC repair",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "mining.pumpjack": {
+      "DisplayName": "Pump Jack",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "mining.quarry": {
+      "DisplayName": "Mining Quarry",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "fish.minnows": {
+      "DisplayName": "Minnows",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "smg.mp5": {
+      "DisplayName": "MP5A4",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "mushroom": {
+      "DisplayName": "Mushroom",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "weapon.mod.muzzleboost": {
+      "DisplayName": "Muzzle Boost",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "weapon.mod.muzzlebrake": {
+      "DisplayName": "Muzzle Brake",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "pistol.nailgun": {
+      "DisplayName": "Nailgun",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "ammo.nailgun.nails": {
+      "DisplayName": "Nailgun Nails",
+      "CanResearch": true,
+      "ItemCategory": "Ammunition"
+    },
+    "note": {
+      "DisplayName": "Note",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "electric.orswitch": {
+      "DisplayName": "OR Switch",
+      "CanResearch": true,
+      "ItemCategory": "Electrical"
+    },
+    "easter.paintedeggs": {
+      "DisplayName": "Painted Egg",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "burlap.trousers": {
+      "DisplayName": "Burlap Trousers",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "pants": {
+      "DisplayName": "Pants",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "heavy.plate.pants": {
+      "DisplayName": "Heavy Plate Pants",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "attire.hide.pants": {
+      "DisplayName": "Hide Pants",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "roadsign.kilt": {
+      "DisplayName": "Road Sign Kilt",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "pants.shorts": {
+      "DisplayName": "Shorts",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "paper": {
+      "DisplayName": "Paper",
+      "CanResearch": true,
+      "ItemCategory": "Resources"
+    },
+    "pickaxe": {
+      "DisplayName": "Pickaxe",
+      "CanResearch": true,
+      "ItemCategory": "Tool"
+    },
+    "jar.pickle": {
+      "DisplayName": "Pickles",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "pistol.eoka": {
+      "DisplayName": "Eoka Pistol",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "pistol.revolver": {
+      "DisplayName": "Revolver",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "pistol.semiauto": {
+      "DisplayName": "Semi-Automatic Pistol",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "pitchfork": {
+      "DisplayName": "Pitchfork",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "planter.large": {
+      "DisplayName": "Large Planter Box",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "planter.small": {
+      "DisplayName": "Small Planter Box",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "attire.hide.poncho": {
+      "DisplayName": "Hide Poncho",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "pookie.bear": {
+      "DisplayName": "Pookie Bear",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "xmas.present.large": {
+      "DisplayName": "Large Present",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "xmas.present.medium": {
+      "DisplayName": "Medium Present",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "xmas.present.small": {
+      "DisplayName": "Small Present",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "electric.pressurepad": {
+      "DisplayName": "Pressure Pad",
+      "CanResearch": true,
+      "ItemCategory": "Electrical"
+    },
+    "propanetank": {
+      "DisplayName": "Empty Propane Tank",
+      "CanResearch": true,
+      "ItemCategory": "Component"
+    },
+    "pumpkin": {
+      "DisplayName": "Pumpkin",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "pumpkinbasket": {
+      "DisplayName": "Pumpkin Bucket",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "clone.pumpkin": {
+      "DisplayName": "Pumpkin Plant Clone",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "seed.pumpkin": {
+      "DisplayName": "Pumpkin Seed",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "pistol.python": {
+      "DisplayName": "Python Revolver",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "target.reactive": {
+      "DisplayName": "Reactive Target",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "box.repair.bench": {
+      "DisplayName": "Repair Bench",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "research.table": {
+      "DisplayName": "Research Table",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "researchpaper": {
+      "DisplayName": "Research Paper",
+      "CanResearch": true,
+      "ItemCategory": "Resources"
+    },
+    "electric.rf.broadcaster": {
+      "DisplayName": "RF Broadcaster",
+      "CanResearch": true,
+      "ItemCategory": "Electrical"
+    },
+    "rf_pager": {
+      "DisplayName": "RF Pager",
+      "CanResearch": true,
+      "ItemCategory": "Electrical"
+    },
+    "electric.rf.receiver": {
+      "DisplayName": "RF Receiver",
+      "CanResearch": true,
+      "ItemCategory": "Electrical"
+    },
+    "riflebody": {
+      "DisplayName": "Rifle Body",
+      "CanResearch": true,
+      "ItemCategory": "Component"
+    },
+    "roadsign.jacket": {
+      "DisplayName": "Road Sign Jacket",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "roadsigns": {
+      "DisplayName": "Road Signs",
+      "CanResearch": true,
+      "ItemCategory": "Component"
+    },
+    "rock": {
+      "DisplayName": "Rock",
+      "CanResearch": true,
+      "ItemCategory": "Tool"
+    },
+    "rocket.launcher": {
+      "DisplayName": "Rocket Launcher",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "rope": {
+      "DisplayName": "Rope",
+      "CanResearch": true,
+      "ItemCategory": "Component"
+    },
+    "rug.bear": {
+      "DisplayName": "Rug Bear Skin",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "rug": {
+      "DisplayName": "Rug",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "rustige_egg_a": {
+      "DisplayName": "Rustigé Egg - Red",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "rustige_egg_b": {
+      "DisplayName": "Rustigé Egg - Blue",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "water.salt": {
+      "DisplayName": "Salt Water",
+      "CanResearch": true,
+      "ItemCategory": "Resources"
+    },
+    "salvaged.cleaver": {
+      "DisplayName": "Salvaged Cleaver",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "salvaged.sword": {
+      "DisplayName": "Salvaged Sword",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "ammo.rocket.sam": {
+      "DisplayName": "SAM Ammo",
+      "CanResearch": true,
+      "ItemCategory": "Ammunition"
+    },
+    "samsite": {
+      "DisplayName": "SAM Site",
+      "CanResearch": true,
+      "ItemCategory": "Traps"
+    },
+    "santahat": {
+      "DisplayName": "Santa Hat",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "scarecrow": {
+      "DisplayName": "Scarecrow",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "hazmatsuit_scientist": {
+      "DisplayName": "Scientist Suit",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "scientistsuit_heavy": {
+      "DisplayName": "Heavy Scientist Suit",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "hazmatsuit_scientist_peacekeeper": {
+      "DisplayName": "Scientist Suit",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "weapon.mod.small.scope": {
+      "DisplayName": "8x Zoom Scope",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "scrap": {
+      "DisplayName": "Scrap",
+      "CanResearch": true,
+      "ItemCategory": "Resources"
+    },
+    "scraptransportheli.repair": {
+      "DisplayName": "ScrapTransportHeliRepair",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "searchlight": {
+      "DisplayName": "Search Light",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "rifle.semiauto": {
+      "DisplayName": "Semi-Automatic Rifle",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "semibody": {
+      "DisplayName": "Semi Automatic Body",
+      "CanResearch": true,
+      "ItemCategory": "Component"
+    },
+    "sewingkit": {
+      "DisplayName": "Sewing Kit",
+      "CanResearch": true,
+      "ItemCategory": "Component"
+    },
+    "sheetmetal": {
+      "DisplayName": "Sheet Metal",
+      "CanResearch": true,
+      "ItemCategory": "Component"
+    },
+    "shelves": {
+      "DisplayName": "Salvaged Shelves",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "shirt.collared": {
+      "DisplayName": "Shirt",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "shirt.tanktop": {
+      "DisplayName": "Tank Top",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "shoes.boots": {
+      "DisplayName": "Boots",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "shotgun.double": {
+      "DisplayName": "Double Barrel Shotgun",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "shotgun.pump": {
+      "DisplayName": "Pump Shotgun",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "shotgun.waterpipe": {
+      "DisplayName": "Waterpipe Shotgun",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "guntrap": {
+      "DisplayName": "Shotgun Trap",
+      "CanResearch": true,
+      "ItemCategory": "Traps"
+    },
+    "shutter.metal.embrasure.a": {
+      "DisplayName": "Metal horizontal embrasure",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "shutter.metal.embrasure.b": {
+      "DisplayName": "Metal Vertical embrasure",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "shutter.wood.a": {
+      "DisplayName": "Wood Shutters",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "sickle": {
+      "DisplayName": "Sickle",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "sign.hanging.banner.large": {
+      "DisplayName": "Large Banner Hanging",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "sign.hanging": {
+      "DisplayName": "Two Sided Hanging Sign",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "sign.hanging.ornate": {
+      "DisplayName": "Two Sided Ornate Hanging Sign",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "sign.pictureframe.landscape": {
+      "DisplayName": "Landscape Picture Frame",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "sign.pictureframe.portrait": {
+      "DisplayName": "Portrait Picture Frame",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "sign.pictureframe.tall": {
+      "DisplayName": "Tall Picture Frame",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "sign.pictureframe.xl": {
+      "DisplayName": "XL Picture Frame",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "sign.pictureframe.xxl": {
+      "DisplayName": "XXL Picture Frame",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "sign.pole.banner.large": {
+      "DisplayName": "Large Banner on pole",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "sign.post.double": {
+      "DisplayName": "Double Sign Post",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "sign.post.single": {
+      "DisplayName": "Single Sign Post",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "sign.post.town": {
+      "DisplayName": "One Sided Town Sign Post",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "sign.post.town.roof": {
+      "DisplayName": "Two Sided Town Sign Post",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "sign.wooden.huge": {
+      "DisplayName": "Huge Wooden Sign",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "sign.wooden.large": {
+      "DisplayName": "Large Wooden Sign",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "sign.wooden.medium": {
+      "DisplayName": "Wooden Sign",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "sign.wooden.small": {
+      "DisplayName": "Small Wooden Sign",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "weapon.mod.silencer": {
+      "DisplayName": "Silencer",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "easter.silveregg": {
+      "DisplayName": "Silver Egg",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "electric.simplelight": {
+      "DisplayName": "Simple Light",
+      "CanResearch": true,
+      "ItemCategory": "Electrical"
+    },
+    "weapon.mod.simplesight": {
+      "DisplayName": "Simple Handmade Sight",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "skulldoorknocker": {
+      "DisplayName": "Skull Door Knocker",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "skull_fire_pit": {
+      "DisplayName": "Skull Fire Pit",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "skull.human": {
+      "DisplayName": "Human Skull",
+      "CanResearch": true,
+      "ItemCategory": "Resources"
+    },
+    "skull.wolf": {
+      "DisplayName": "Wolf Skull",
+      "CanResearch": true,
+      "ItemCategory": "Resources"
+    },
+    "sleepingbag": {
+      "DisplayName": "Sleeping Bag",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "electric.battery.rechargable.small": {
+      "DisplayName": "Small Rechargable Battery",
+      "CanResearch": true,
+      "ItemCategory": "Electrical"
+    },
+    "electric.fuelgenerator.small": {
+      "DisplayName": "Small Generator",
+      "CanResearch": true,
+      "ItemCategory": "Electrical"
+    },
+    "small.oil.refinery": {
+      "DisplayName": "Small Oil Refinery",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "stash.small": {
+      "DisplayName": "Small Stash",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "smallcandles": {
+      "DisplayName": "Small Candle Set",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "fish.troutsmall": {
+      "DisplayName": "Small Trout",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "smallwaterbottle": {
+      "DisplayName": "Small Water Bottle",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "smg.2": {
+      "DisplayName": "Custom SMG",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "smgbody": {
+      "DisplayName": "SMG Body",
+      "CanResearch": true,
+      "ItemCategory": "Component"
+    },
+    "grenade.smoke": {
+      "DisplayName": "Smoke Grenade",
+      "CanResearch": true,
+      "ItemCategory": "Tool"
+    },
+    "snowball": {
+      "DisplayName": "Snowball",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "snowmachine": {
+      "DisplayName": "Snow Machine",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "snowman": {
+      "DisplayName": "Snowman",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "electric.solarpanel.large": {
+      "DisplayName": "Large Solar Panel",
+      "CanResearch": true,
+      "ItemCategory": "Electrical"
+    },
+    "shotgun.spas12": {
+      "DisplayName": "Spas-12 Shotgun",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "spear.stone": {
+      "DisplayName": "Stone Spear",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "spear.wooden": {
+      "DisplayName": "Wooden Spear",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "spiderweb": {
+      "DisplayName": "Spider Webs",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "spikes.floor": {
+      "DisplayName": "Wooden Floor Spikes",
+      "CanResearch": true,
+      "ItemCategory": "Traps"
+    },
+    "spinner.wheel": {
+      "DisplayName": "Spinning wheel",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "electric.splitter": {
+      "DisplayName": "Splitter",
+      "CanResearch": true,
+      "ItemCategory": "Electrical"
+    },
+    "spookyspeaker": {
+      "DisplayName": "Spooky Speaker",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "metalspring": {
+      "DisplayName": "Metal Spring",
+      "CanResearch": true,
+      "ItemCategory": "Component"
+    },
+    "sticks": {
+      "DisplayName": "Sticks",
+      "CanResearch": true,
+      "ItemCategory": "Component"
+    },
+    "stocking.large": {
+      "DisplayName": "SUPER Stocking",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "stocking.small": {
+      "DisplayName": "Small Stocking",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "stone.pickaxe": {
+      "DisplayName": "Stone Pickaxe",
+      "CanResearch": true,
+      "ItemCategory": "Tool"
+    },
+    "stonehatchet": {
+      "DisplayName": "Stone Hatchet",
+      "CanResearch": true,
+      "ItemCategory": "Tool"
+    },
+    "stones": {
+      "DisplayName": "Stones",
+      "CanResearch": true,
+      "ItemCategory": "Resources"
+    },
+    "strobelight": {
+      "DisplayName": "Strobe Light",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "sulfur": {
+      "DisplayName": "Sulfur",
+      "CanResearch": true,
+      "ItemCategory": "Resources"
+    },
+    "sulfur.ore": {
+      "DisplayName": "Sulfur Ore",
+      "CanResearch": true,
+      "ItemCategory": "Resources"
+    },
+    "supply.signal": {
+      "DisplayName": "Supply Signal",
+      "CanResearch": true,
+      "ItemCategory": "Tool"
+    },
+    "halloween.surgeonsuit": {
+      "DisplayName": "Surgeon Scrubs",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "surveycharge": {
+      "DisplayName": "Survey Charge",
+      "CanResearch": true,
+      "ItemCategory": "Tool"
+    },
+    "fishtrap.small": {
+      "DisplayName": "Survival Fish Trap",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "electric.switch": {
+      "DisplayName": "Switch",
+      "CanResearch": true,
+      "ItemCategory": "Electrical"
+    },
+    "syringe.medical": {
+      "DisplayName": "Medical Syringe",
+      "CanResearch": true,
+      "ItemCategory": "Medical"
+    },
+    "table": {
+      "DisplayName": "Table",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "targeting.computer": {
+      "DisplayName": "Targeting Computer",
+      "CanResearch": true,
+      "ItemCategory": "Resources"
+    },
+    "tarp": {
+      "DisplayName": "Tarp",
+      "CanResearch": true,
+      "ItemCategory": "Component"
+    },
+    "techparts": {
+      "DisplayName": "Tech Trash",
+      "CanResearch": true,
+      "ItemCategory": "Component"
+    },
+    "electric.teslacoil": {
+      "DisplayName": "Tesla Coil",
+      "CanResearch": true,
+      "ItemCategory": "Electrical"
+    },
+    "smg.thompson": {
+      "DisplayName": "Thompson",
+      "CanResearch": true,
+      "ItemCategory": "Weapon"
+    },
+    "electric.timer": {
+      "DisplayName": "Timer",
+      "CanResearch": true,
+      "ItemCategory": "Electrical"
+    },
+    "torch": {
+      "DisplayName": "Torch",
+      "CanResearch": true,
+      "ItemCategory": "Tool"
+    },
+    "xmas.decoration.baubels": {
+      "DisplayName": "Decorative Baubels",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "xmas.decoration.candycanes": {
+      "DisplayName": "Decorative Plastic Candy Canes",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "xmas.decoration.gingerbreadmen": {
+      "DisplayName": "Decorative Gingerbread Men",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "xmas.decoration.lights": {
+      "DisplayName": "Tree Lights",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "xmas.decoration.pinecone": {
+      "DisplayName": "Decorative Pinecones",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "xmas.decoration.star": {
+      "DisplayName": "Star Tree Topper",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "xmas.decoration.tinsel": {
+      "DisplayName": "Decorative Tinsel",
+      "CanResearch": true,
+      "ItemCategory": "Misc"
+    },
+    "tshirt": {
+      "DisplayName": "T-Shirt",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "tshirt.long": {
+      "DisplayName": "Longsleeve T-Shirt",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "tunalight": {
+      "DisplayName": "Tuna Can Lamp",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "vending.machine": {
+      "DisplayName": "Vending Machine",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "wall.external.high.stone": {
+      "DisplayName": "High External Stone Wall",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "wall.external.high": {
+      "DisplayName": "High External Wooden Wall",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "wall.frame.cell.gate": {
+      "DisplayName": "Prison Cell Gate",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "wall.frame.cell": {
+      "DisplayName": "Prison Cell Wall",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "wall.frame.fence.gate": {
+      "DisplayName": "Chainlink Fence Gate",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "wall.frame.fence": {
+      "DisplayName": "Chainlink Fence",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "wall.frame.garagedoor": {
+      "DisplayName": "Garage Door",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "wall.frame.netting": {
+      "DisplayName": "Netting",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "wall.frame.shopfront": {
+      "DisplayName": "Shop Front",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "wall.frame.shopfront.metal": {
+      "DisplayName": "Metal Shop Front",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "wall.window.bars.metal": {
+      "DisplayName": "Metal Window Bars",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "wall.window.bars.toptier": {
+      "DisplayName": "Reinforced Window Bars",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "wall.window.bars.wood": {
+      "DisplayName": "Wooden Window Bars",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "wall.window.glass.reinforced": {
+      "DisplayName": "Reinforced Glass Window",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "watchtower.wood": {
+      "DisplayName": "Watch Tower",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "water": {
+      "DisplayName": "Water",
+      "CanResearch": true,
+      "ItemCategory": "Resources"
+    },
+    "water.catcher.large": {
+      "DisplayName": "Large Water Catcher",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "water.catcher.small": {
+      "DisplayName": "Small Water Catcher",
+      "CanResearch": true,
+      "ItemCategory": "Construction"
+    },
+    "water.barrel": {
+      "DisplayName": "Water Barrel",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "waterjug": {
+      "DisplayName": "Water Jug",
+      "CanResearch": true,
+      "ItemCategory": "Food"
+    },
+    "water.purifier": {
+      "DisplayName": "Water Purifier",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "xmas.window.garland": {
+      "DisplayName": "Festive Window Garland",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "wiretool": {
+      "DisplayName": "Wire Tool",
+      "CanResearch": true,
+      "ItemCategory": "Electrical"
+    },
+    "wood": {
+      "DisplayName": "Wood",
+      "CanResearch": true,
+      "ItemCategory": "Resources"
+    },
+    "wood.armor.jacket": {
+      "DisplayName": "Wood Chestplate",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "wood.armor.pants": {
+      "DisplayName": "Wood Armor Pants",
+      "CanResearch": true,
+      "ItemCategory": "Attire"
+    },
+    "workbench1": {
+      "DisplayName": "Work Bench Level 1",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "workbench2": {
+      "DisplayName": "Work Bench Level 2",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "workbench3": {
+      "DisplayName": "Work Bench Level 3",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "xmas.lightstring": {
+      "DisplayName": "Christmas Lights",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "xmas.tree": {
+      "DisplayName": "Christmas Tree",
+      "CanResearch": true,
+      "ItemCategory": "Items"
+    },
+    "electric.xorswitch": {
+      "DisplayName": "XOR Switch",
+      "CanResearch": true,
+      "ItemCategory": "Electrical"
+    }
+  },
+  "MaxLevel": 200,
+  "MAXSTATSTABLE": {
+    "agi_evasion_percent_gain": {
+      "Args": [
+        1.000625,
+        0.5
+      ]
+    },
+    "int_crafting_reducer_percent": {
+      "Args": [
+        1.001,
+        0.5
+      ]
+    },
+    "str_block_percent_gain": {
+      "Args": [
+        1.00095,
+        0.5
+      ]
+    }
+  },
+  "NIGHTXP": 2,
+  "RESEARCHSKILLTABLE": {
+    "Ammunition": 4,
+    "Attire": 2,
+    "Construction": 3,
+    "Medical": 4,
+    "Resources": 3,
+    "Tool": 1,
+    "Weapon": 5
+  },
+  "SHOWHUD": true,
+  "SHOWPROFILE": false,
+  "SKILLTABLE": {
+    "Blacksmith": {
+      "Description": "BlacksmithDesc",
+      "Enabled": true,
+      "MaxLevel": 5,
+      "Modifiers": {
+        "Chance": {
+          "Args": [
+            0.15
+          ]
+        },
+        "RessRate": {
+          "Args": [
+            0.5
+          ]
+        }
+      },
+      "Name": "Blacksmith",
+      "RequiredLevel": 30,
+      "RequiredSkills": [],
+      "RequiredStats": [
+        {
+          "str": 75
+        }
+      ],
+      "SkillPointsPerLevel": 7,
+      "Type": "Blacksmith",
+      "Usage": "None"
+    },
+    "Blinkarrow": {
+      "Description": "BlinkarrowDesc",
+      "Enabled": false,
+      "MaxLevel": 5,
+      "Modifiers": {
+        "Cooldown": {
+          "Args": [
+            9.0,
+            2.0
+          ]
+        }
+      },
+      "Name": "Blinkarrow",
+      "RequiredLevel": 150,
+      "RequiredSkills": [],
+      "RequiredStats": [
+        {
+          "agi": 300
+        }
+      ],
+      "SkillPointsPerLevel": 10,
+      "Type": "Blinkarrow",
+      "Usage": "BlinkarrowUsage"
+    },
+    "Gatherer": {
+      "Description": "GathererDesc",
+      "Enabled": true,
+      "MaxLevel": 20,
+      "Modifiers": {
+        "Gather": {
+          "Args": [
+            1.035265
+          ]
+        }
+      },
+      "Name": "Gatherer",
+      "RequiredLevel": 0,
+      "RequiredSkills": [],
+      "RequiredStats": [],
+      "SkillPointsPerLevel": 1,
+      "Type": "Gatherer",
+      "Usage": "None"
+    },
+    "Hunter": {
+      "Description": "HunterDesc",
+      "Enabled": true,
+      "MaxLevel": 20,
+      "Modifiers": {
+        "Gather": {
+          "Args": [
+            1.035265
+          ]
+        }
+      },
+      "Name": "Hunter",
+      "RequiredLevel": 0,
+      "RequiredSkills": [],
+      "RequiredStats": [],
+      "SkillPointsPerLevel": 1,
+      "Type": "Hunter",
+      "Usage": "None"
+    },
+    "Lumberjack": {
+      "Description": "LumberjackDesc",
+      "Enabled": true,
+      "MaxLevel": 20,
+      "Modifiers": {
+        "Gather": {
+          "Args": [
+            1.035265
+          ]
+        }
+      },
+      "Name": "Lumberjack",
+      "RequiredLevel": 0,
+      "RequiredSkills": [],
+      "RequiredStats": [],
+      "SkillPointsPerLevel": 1,
+      "Type": "Lumberjack",
+      "Usage": "None"
+    },
+    "Miner": {
+      "Description": "MinerDesc",
+      "Enabled": true,
+      "MaxLevel": 20,
+      "Modifiers": {
+        "Gather": {
+          "Args": [
+            1.02048
+          ]
+        }
+      },
+      "Name": "Miner",
+      "RequiredLevel": 0,
+      "RequiredSkills": [],
+      "RequiredStats": [],
+      "SkillPointsPerLevel": 1,
+      "Type": "Miner",
+      "Usage": "None"
+    },
+    "Researcher": {
+      "Description": "ResearcherDesc",
+      "Enabled": false,
+      "MaxLevel": 5,
+      "Modifiers": {
+        "Chance": {
+          "Args": [
+            0.6
+          ]
+        },
+        "Cooldown": {
+          "Args": [
+            10.0,
+            2.0
+          ]
+        }
+      },
+      "Name": "Researcher",
+      "RequiredLevel": 30,
+      "RequiredSkills": [],
+      "RequiredStats": [
+        {
+          "int": 90
+        }
+      ],
+      "SkillPointsPerLevel": 7,
+      "Type": "Researcher",
+      "Usage": "ResearcherUsage"
+    },
+    "Tamer": {
+      "Description": "TamerDesc",
+      "Enabled": true,
+      "MaxLevel": 6,
+      "Modifiers": {},
+      "Name": "Tamer",
+      "RequiredLevel": 50,
+      "RequiredSkills": [],
+      "RequiredStats": [],
+      "SkillPointsPerLevel": 5,
+      "Type": "Tamer",
+      "Usage": "TamerUsage"
+    }
+  },
+  "TAMETABLE": {
+    "1": "canchicken",
+    "2": "canboar",
+    "3": "canstag",
+    "4": "canwolf",
+    "5": "canbear",
+    "6": "canhorse"
+  },
+  "TRAINER": [],
+  "UPGRADEBUILDTABLE": {
+    "Metal": 1.0,
+    "Stone": 1.0,
+    "TopTier": 1.0,
+    "Twigs": 1.0,
+    "Wood": 1.0
+  },
+  "VERSION": {
+    "Major": 1,
+    "Minor": 7,
+    "Patch": 65
+  },
+  "XPTABLE": {
+    "0": 383,
+    "1": 416,
+    "10": 877,
+    "100": 162942,
+    "1000": "2224684348",
+    "1001": "2246931109",
+    "1002": "2269400490",
+    "1003": "2292094560",
+    "1004": "2315015386",
+    "1005": "2338165556",
+    "1006": "2361547136",
+    "1007": "2385162714",
+    "1008": "2409014356",
+    "1009": "2433104391",
+    "101": 168319,
+    "1010": "2457435404",
+    "1011": "2482009722",
+    "1012": "2506829672",
+    "1013": "2531897839",
+    "1014": "2557216810",
+    "1015": "2582788911",
+    "1016": "2608616728",
+    "1017": "2634702846",
+    "1018": "2661049851",
+    "1019": "2687660329",
+    "102": 173873,
+    "1020": "2714536865",
+    "1021": "2741682303",
+    "1022": "2769098971",
+    "1023": "2796789971",
+    "1024": "2824757889",
+    "1025": "2853005569",
+    "1026": "2881535596",
+    "1027": "2910350815",
+    "1028": "2939454328",
+    "1029": "2968848722",
+    "103": 179610,
+    "1030": "2998537098",
+    "1031": "3028522559",
+    "1032": "3058807692",
+    "1033": "3089395856",
+    "1034": "3120289898",
+    "1035": "3151492660",
+    "1036": "3183007504",
+    "1037": "3214837532",
+    "1038": "3246985848",
+    "1039": "3279455554",
+    "104": 185537,
+    "1040": "3312250011",
+    "1041": "3345372581",
+    "1042": "3378826366",
+    "1043": "3412614470",
+    "1044": "3446740511",
+    "1045": "3481207851",
+    "1046": "3516019852",
+    "1047": "3551180134",
+    "1048": "3586691798",
+    "1049": "3622558724",
+    "105": 191659,
+    "1050": "3658784272",
+    "1051": "3695372063",
+    "1052": "3732325717",
+    "1053": "3769648852",
+    "1054": "3807345349",
+    "1055": "3845418825",
+    "1056": "3883872902",
+    "1057": "3922711717",
+    "1058": "3961938888",
+    "1059": "4001558295",
+    "106": 197983,
+    "1060": "4041573816",
+    "1061": "4081989588",
+    "1062": "4122809489",
+    "1063": "4164037656",
+    "1064": "4205677968",
+    "1065": "4247734820",
+    "1066": "4290212091",
+    "1067": "4333114176",
+    "1068": "4376445470",
+    "1069": "4420209852",
+    "107": 204516,
+    "1070": "4464411718",
+    "1071": "4509055721",
+    "1072": "4554145999",
+    "1073": "4599687206",
+    "1074": "4645683995",
+    "1075": "4692141021",
+    "1076": "4739062421",
+    "1077": "4786452849",
+    "1078": "4834317476",
+    "1079": "4882660439",
+    "108": 211265,
+    "1080": "4931486908",
+    "1081": "4980801540",
+    "1082": "5030609503",
+    "1083": "5080915454",
+    "1084": "5131724562",
+    "1085": "5183041999",
+    "1086": "5234872419",
+    "1087": "5287220993",
+    "1088": "5340093410",
+    "1089": "5393494323",
+    "109": 218236,
+    "1090": "5447429421",
+    "1091": "5501903876",
+    "1092": "5556922858",
+    "1093": "5612492055",
+    "1094": "5668617157",
+    "1095": "5725303334",
+    "1096": "5782556274",
+    "1097": "5840381666",
+    "1098": "5898785198",
+    "1099": "5957773076",
+    "11": 949,
+    "110": 224237,
+    "1100": "6017350988",
+    "1101": "6077524622",
+    "1102": "6138299666",
+    "1103": "6199682844",
+    "1104": "6261679843",
+    "1105": "6324296352",
+    "1106": "6387539093",
+    "1107": "6451414272",
+    "1108": "6515928094",
+    "1109": "6581087282",
+    "111": 230403,
+    "1110": "6646898041",
+    "1111": "6713367094",
+    "1112": "6780500646",
+    "1113": "6848305420",
+    "1114": "6916788655",
+    "1115": "6985956557",
+    "1116": "7055815848",
+    "1117": "7126373769",
+    "1118": "7197637558",
+    "1119": "7269613939",
+    "112": 236739,
+    "1120": "7342310151",
+    "1121": "7415733433",
+    "1122": "7489890509",
+    "1123": "7564789135",
+    "1124": "7640437068",
+    "1125": "7716841547",
+    "1126": "7794009813",
+    "1127": "7871949621",
+    "1128": "7950669247",
+    "1129": "8030175929",
+    "113": 243249,
+    "1130": "8110477424",
+    "1131": "8191582007",
+    "1132": "8273497951",
+    "1133": "8356233014",
+    "1134": "8439795468",
+    "1135": "8524193588",
+    "1136": "8609435648",
+    "1137": "8695529922",
+    "1138": "8782484683",
+    "1139": "8870309241",
+    "114": 249938,
+    "1140": "8959011868",
+    "1141": "9048601872",
+    "1142": "9139087529",
+    "1143": "9230478146",
+    "1144": "9322783031",
+    "1145": "9416010458",
+    "1146": "9510170769",
+    "1147": "9605272239",
+    "1148": "9701325210",
+    "1149": "9798337955",
+    "115": 256811,
+    "1150": "9896320817",
+    "1151": "9995284139",
+    "1152": "10095237229",
+    "1153": "10196189394",
+    "1154": "10298150978",
+    "1155": "10401132322",
+    "1156": "10505143770",
+    "1157": "10610194628",
+    "1158": "10716296275",
+    "1159": "10823459051",
+    "116": 263873,
+    "1160": "10931693300",
+    "1161": "11041010399",
+    "1162": "11151420689",
+    "1163": "11262934513",
+    "1164": "11375563248",
+    "1165": "11489318271",
+    "1166": "11604210957",
+    "1167": "11720252684",
+    "1168": "11837454828",
+    "1169": "11955828766",
+    "117": 271129,
+    "1170": "12075386909",
+    "1171": "12196140633",
+    "1172": "12318102350",
+    "1173": "12441283435",
+    "1174": "12565696301",
+    "1175": "12691353357",
+    "1176": "12818267014",
+    "1177": "12946449685",
+    "1178": "13075913778",
+    "1179": "13206672740",
+    "118": 278585,
+    "1180": "13338738981",
+    "1181": "13472125947",
+    "1182": "13606847083",
+    "1183": "13742915833",
+    "1184": "13880344608",
+    "1185": "14019147889",
+    "1186": "14159339120",
+    "1187": "14300932780",
+    "1188": "14443942314",
+    "1189": "14588381169",
+    "119": 286246,
+    "1190": "14734264856",
+    "1191": "14881607856",
+    "1192": "15030423614",
+    "1193": "15180727644",
+    "1194": "15332534424",
+    "1195": "15485859468",
+    "1196": "15640718290",
+    "1197": "15797125370",
+    "1198": "15955096220",
+    "1199": "16114647389",
+    "12": 1027,
+    "120": 292543,
+    "1200": "16275793356",
+    "1201": "16438550669",
+    "1202": "16602935876",
+    "1203": "16768965524",
+    "1204": "16936655128",
+    "1205": "17106021234",
+    "1206": "17277081426",
+    "1207": "17449852251",
+    "1208": "17624351290",
+    "1209": "17800594059",
+    "121": 298979,
+    "1210": "17978599172",
+    "1211": "18158385246",
+    "1212": "18339968830",
+    "1213": "18523368539",
+    "1214": "18708602990",
+    "1215": "18895688730",
+    "1216": "19084646445",
+    "1217": "19275492681",
+    "1218": "19468248125",
+    "1219": "19662931393",
+    "122": 305556,
+    "1220": "19859561100",
+    "1221": "20058155863",
+    "1222": "20258736366",
+    "1223": "20461323296",
+    "1224": "20665937335",
+    "1225": "20872597102",
+    "1226": "21081323279",
+    "1227": "21292136554",
+    "1228": "21505057609",
+    "1229": "21720107130",
+    "123": 312278,
+    "1230": "21937307870",
+    "1231": "22156680515",
+    "1232": "22378247816",
+    "1233": "22602030460",
+    "1234": "22828051199",
+    "1235": "23056330718",
+    "1236": "23286893839",
+    "1237": "23519763315",
+    "1238": "23754959832",
+    "1239": "23992508209",
+    "124": 319148,
+    "1240": "24232433271",
+    "1241": "24474757769",
+    "1242": "24719504457",
+    "1243": "24966700226",
+    "1244": "25216367828",
+    "1245": "25468532085",
+    "1246": "25723217820",
+    "1247": "25980449853",
+    "1248": "26240255076",
+    "1249": "26502658309",
+    "125": 326169,
+    "1250": "26767684375",
+    "1251": "27035360164",
+    "1252": "27305712566",
+    "1253": "27578768471",
+    "1254": "27854556839",
+    "1255": "28133102490",
+    "1256": "28414432315",
+    "1257": "28698577341",
+    "1258": "28985562391",
+    "1259": "29275418490",
+    "126": 333344,
+    "1260": "29568172531",
+    "1261": "29863853470",
+    "1262": "30162492335",
+    "1263": "30464116018",
+    "1264": "30768757612",
+    "1265": "31076444009",
+    "1266": "31387208305",
+    "1267": "31701079457",
+    "1268": "32018090562",
+    "1269": "32338270578",
+    "127": 340677,
+    "1270": "32661652601",
+    "1271": "32988269727",
+    "1272": "33318152983",
+    "1273": "33651333396",
+    "1274": "33987846130",
+    "1275": "34327724281",
+    "1276": "34671000944",
+    "1277": "35017711285",
+    "1278": "35367888398",
+    "1279": "35721565379",
+    "128": 348172,
+    "1280": "36078779460",
+    "1281": "36439567876",
+    "1282": "36803963720",
+    "1283": "37172004226",
+    "1284": "37543722489",
+    "1285": "37919159880",
+    "1286": "38298349493",
+    "1287": "38681332698",
+    "1288": "39068146728",
+    "1289": "39458828816",
+    "129": 355831,
+    "1290": "39853416194",
+    "1291": "40251950232",
+    "1292": "40654468162",
+    "1293": "41061011355",
+    "1294": "41471621178",
+    "1295": "41886339004",
+    "1296": "42305202063",
+    "1297": "42728251725",
+    "1298": "43155533498",
+    "1299": "43587088750",
+    "13": 1111,
+    "130": 361702,
+    "1300": "44022958852",
+    "1301": "44463189309",
+    "1302": "44907821492",
+    "1303": "45356900906",
+    "1304": "45810468922",
+    "1305": "46268575184",
+    "1306": "46731261060",
+    "1307": "47198572057",
+    "1308": "47670557819",
+    "1309": "48147263852",
+    "131": 367670,
+    "1310": "48628735663",
+    "1311": "49115022896",
+    "1312": "49606171056",
+    "1313": "50102233925",
+    "1314": "50603257009",
+    "1315": "51109289951",
+    "1316": "51620382396",
+    "1317": "52136583986",
+    "1318": "52657948502",
+    "1319": "53184525588",
+    "132": 373736,
+    "1320": "53716369023",
+    "1321": "54253532589",
+    "1322": "54796065929",
+    "1323": "55344026961",
+    "1324": "55897465328",
+    "1325": "56456438947",
+    "1326": "57021001599",
+    "1327": "57591211201",
+    "1328": "58167121534",
+    "1329": "58748790515",
+    "133": 379902,
+    "1330": "59336276063",
+    "1331": "59929640230",
+    "1332": "60528936798",
+    "1333": "61134223683",
+    "1334": "61745567079",
+    "1335": "62363020764",
+    "1336": "62986650930",
+    "1337": "63616515495",
+    "1338": "64252680650",
+    "1339": "64895208449",
+    "134": 386170,
+    "1340": "65544160947",
+    "1341": "66199600199",
+    "1342": "66861596532",
+    "1343": "67530212001",
+    "1344": "68205512797",
+    "1345": "68887569249",
+    "1346": "69576443410",
+    "1347": "70272205611",
+    "1348": "70974926177",
+    "1349": "71684671302",
+    "135": 392542,
+    "1350": "72401515450",
+    "1351": "73125533087",
+    "1352": "73856790404",
+    "1353": "74595353591",
+    "1354": "75341305390",
+    "1355": "76094720264",
+    "1356": "76855664405",
+    "1357": "77624220553",
+    "1358": "78400463172",
+    "1359": "79184466728",
+    "136": 399019,
+    "1360": "79976313960",
+    "1361": "80776079334",
+    "1362": "81583837314",
+    "1363": "82399678914",
+    "1364": "83223678599",
+    "1365": "84055910835",
+    "1366": "84896466633",
+    "1367": "85745428735",
+    "1368": "86602879878",
+    "1369": "87468911076",
+    "137": 405603,
+    "1370": "88343596795",
+    "1371": "89227028047",
+    "1372": "90119295845",
+    "1373": "91020491203",
+    "1374": "91930696859",
+    "1375": "92850003828",
+    "1376": "93778503122",
+    "1377": "94716285753",
+    "1378": "95663451010",
+    "1379": "96620081632",
+    "138": 412295,
+    "1380": "97586285179",
+    "1381": "98562144390",
+    "1382": "99547766827",
+    "1383": "100543243502",
+    "1384": "101548673703",
+    "1385": "102564156717",
+    "1386": "103589800104",
+    "1387": "104625694878",
+    "1388": "105671948600",
+    "1389": "106728668831",
+    "139": 419098,
+    "1390": "107795954857",
+    "1391": "108873914241",
+    "1392": "109962654541",
+    "1393": "111062283321",
+    "1394": "112172908140",
+    "1395": "113294636559",
+    "1396": "114427584414",
+    "1397": "115571859265",
+    "1398": "116727576948",
+    "1399": "117894853297",
+    "14": 1202,
+    "140": 423708,
+    "1400": "119073804146",
+    "1401": "120264537058",
+    "1402": "121467184414",
+    "1403": "122681853776",
+    "1404": "123908669253",
+    "1405": "125147754952",
+    "1406": "126399234984",
+    "1407": "127663225183",
+    "1408": "128939857931",
+    "1409": "130229257338",
+    "141": 428369,
+    "1410": "131531547511",
+    "1411": "132846860835",
+    "1412": "134175329692",
+    "1413": "135517078190",
+    "1414": "136872246986",
+    "1415": "138240968463",
+    "1416": "139623375004",
+    "1417": "141019615538",
+    "1418": "142429805902",
+    "1419": "143854095025",
+    "142": 433081,
+    "1420": "145292631838",
+    "1421": "146745548725",
+    "1422": "148212994614",
+    "1423": "149695118438",
+    "1424": "151192069125",
+    "1425": "152703995609",
+    "1426": "154231030269",
+    "1427": "155773338586",
+    "1428": "157331069490",
+    "1429": "158904371911",
+    "143": 437845,
+    "1430": "160493411328",
+    "1431": "162098336671",
+    "1432": "163719313418",
+    "1433": "165356507049",
+    "1434": "167010066493",
+    "1435": "168680173777",
+    "1436": "170366977831",
+    "1437": "172070644135",
+    "1438": "173791354713",
+    "1439": "175529258497",
+    "144": 442661,
+    "1440": "177284554061",
+    "1441": "179057390334",
+    "1442": "180847965893",
+    "1443": "182656446213",
+    "1444": "184483013323",
+    "1445": "186327849248",
+    "1446": "188191119467",
+    "1447": "190073022553",
+    "1448": "191973757081",
+    "1449": "193893488529",
+    "145": 447530,
+    "1450": "195832415471",
+    "1451": "197790736482",
+    "1452": "199768650135",
+    "1453": "201766338457",
+    "1454": "203784000021",
+    "1455": "205821833402",
+    "1456": "207880053722",
+    "1457": "209958859554",
+    "1458": "212058449474",
+    "1459": "214179038602",
+    "146": 452453,
+    "1460": "216320825513",
+    "1461": "218484025329",
+    "1462": "220668869719",
+    "1463": "222875557258",
+    "1464": "225104303067",
+    "1465": "227355338817",
+    "1466": "229628896176",
+    "1467": "231925190268",
+    "1468": "234244436213",
+    "1469": "236586882230",
+    "147": 457430,
+    "1470": "238952743441",
+    "1471": "241342268062",
+    "1472": "243755687764",
+    "1473": "246193234216",
+    "1474": "248655172185",
+    "1475": "251141716791",
+    "1476": "253653132801",
+    "1477": "256189668431",
+    "1478": "258751555352",
+    "1479": "261339074877",
+    "148": 462462,
+    "1480": "263952458676",
+    "1481": "266591988061",
+    "1482": "269257911252",
+    "1483": "271950493012",
+    "1484": "274669998107",
+    "1485": "277416691304",
+    "1486": "280190870462",
+    "1487": "282992783800",
+    "1488": "285822696083",
+    "1489": "288680905173",
+    "149": 467549,
+    "1490": "291567708929",
+    "1491": "294483372118",
+    "1492": "297428192601",
+    "1493": "300402468239",
+    "1494": "303406496893",
+    "1495": "306440543328",
+    "1496": "309504938502",
+    "1497": "312599980275",
+    "1498": "315725966508",
+    "1499": "318883228159",
+    "15": 1301,
+    "150": 472224,
+    "1500": "322072063088",
+    "1501": "325292769157",
+    "1502": "328545677322",
+    "1503": "331831118540",
+    "1504": "335149423769",
+    "1505": "338500923964",
+    "1506": "341885916986",
+    "1507": "345304766889",
+    "1508": "348757804630",
+    "1509": "352245394259",
+    "151": 476946,
+    "1510": "355767833640",
+    "1511": "359325519919",
+    "1512": "362918784054",
+    "1513": "366547957002",
+    "1514": "370213435910",
+    "1515": "373915551735",
+    "1516": "377654701627",
+    "1517": "381431249636",
+    "1518": "385245559815",
+    "1519": "389097996218",
+    "152": 481715,
+    "1520": "392988955992",
+    "1521": "396918836285",
+    "1522": "400888034246",
+    "1523": "404896913926",
+    "1524": "408945872475",
+    "1525": "413035340135",
+    "1526": "417165680960",
+    "1527": "421337325194",
+    "1528": "425550703079",
+    "1529": "429806211764",
+    "153": 486532,
+    "1530": "434104281494",
+    "1531": "438445309416",
+    "1532": "442829758870",
+    "1533": "447258060099",
+    "1534": "451730643348",
+    "1535": "456247938859",
+    "1536": "460810409974",
+    "1537": "465418520031",
+    "1538": "470072699274",
+    "1539": "474773411043",
+    "154": 491397,
+    "1540": "479521151773",
+    "1541": "484316351707",
+    "1542": "489159507281",
+    "1543": "494051081834",
+    "1544": "498991571802",
+    "1545": "503981473620",
+    "1546": "509021283723",
+    "1547": "514111498546",
+    "1548": "519252614524",
+    "1549": "524445128093",
+    "155": 496310,
+    "1550": "529689568784",
+    "1551": "534986466126",
+    "1552": "540336316556",
+    "1553": "545739682701",
+    "1554": "551197060994",
+    "1555": "556709047159",
+    "1556": "562276137630",
+    "1557": "567898895035",
+    "1558": "573577848904",
+    "1559": "579313594960",
+    "156": 501273,
+    "1560": "585106728923",
+    "1561": "590957780327",
+    "1562": "596867344892",
+    "1563": "602836018341",
+    "1564": "608864396396",
+    "1565": "614953008588",
+    "1566": "621102516831",
+    "1567": "627313516846",
+    "1568": "633586670548",
+    "1569": "639922507468",
+    "157": 506285,
+    "1570": "646321755709",
+    "1571": "652784944804",
+    "1572": "659312802857",
+    "1573": "665905925590",
+    "1574": "672564974917",
+    "1575": "679290612752",
+    "1576": "686083501008",
+    "1577": "692944301599",
+    "1578": "699873742629",
+    "1579": "706872486012",
+    "158": 511347,
+    "1580": "713941193663",
+    "1581": "721080593685",
+    "1582": "728291414184",
+    "1583": "735574317073",
+    "1584": "742930030458",
+    "1585": "750359348634",
+    "1586": "757862933516",
+    "1587": "765441579399",
+    "1588": "773096014388",
+    "1589": "780826966589",
+    "159": 516460,
+    "1590": "788635230298",
+    "1591": "796521599810",
+    "1592": "804486803232",
+    "1593": "812531634859",
+    "1594": "820656955179",
+    "1595": "828863492297",
+    "1596": "837152106701",
+    "1597": "845523592687",
+    "1598": "853978810742",
+    "1599": "862518621354",
+    "16": 1408,
+    "160": 521624,
+    "1600": "871143818820",
+    "1601": "879855263628",
+    "1602": "888653816264",
+    "1603": "897540337217",
+    "1604": "906515753165",
+    "1605": "915580924597",
+    "1606": "924736712000",
+    "1607": "933984042053",
+    "1608": "943323841435",
+    "1609": "952757103016",
+    "161": 526840,
+    "1610": "962284687285",
+    "1611": "971907520919",
+    "1612": "981626596790",
+    "1613": "991442841577",
+    "1614": "1001357248149",
+    "1615": "1011370809378",
+    "1616": "1021484518134",
+    "1617": "1031699367287",
+    "1618": "1042016349707",
+    "1619": "1052436524457",
+    "162": 532108,
+    "1620": "1062960884406",
+    "1621": "1073590488617",
+    "1622": "1084326396151",
+    "1623": "1095169666069",
+    "1624": "1106121357435",
+    "1625": "1117182529309",
+    "1626": "1128354306944",
+    "1627": "1139637815594",
+    "1628": "1151034246703",
+    "1629": "1162544526950",
+    "163": 537429,
+    "1630": "1174169980163",
+    "1631": "1185911665402",
+    "1632": "1197770774113",
+    "1633": "1209748497740",
+    "1634": "1221846027728",
+    "1635": "1234064423137",
+    "1636": "1246405007797",
+    "1637": "1258869105532",
+    "1638": "1271457775406",
+    "1639": "1284172341246",
+    "164": 542803,
+    "1640": "1297013994496",
+    "1641": "1309984058983",
+    "1642": "1323083858534",
+    "1643": "1336314716976",
+    "1644": "1349677825755",
+    "1645": "1363174641080",
+    "1646": "1376806354395",
+    "1647": "1390574421911",
+    "1648": "1404480167453",
+    "1649": "1418524914851",
+    "165": 548231,
+    "1650": "1432710120313",
+    "1651": "1447037240050",
+    "1652": "1461507597888",
+    "1653": "1476122650038",
+    "1654": "1490883852710",
+    "1655": "1505792662113",
+    "1656": "1520850534457",
+    "1657": "1536059058335",
+    "1658": "1551419689957",
+    "1659": "1566933885533",
+    "166": 553713,
+    "1660": "1582603233655",
+    "1661": "1598429190534",
+    "1662": "1614413477144",
+    "1663": "1630557549695",
+    "1664": "1646863129164",
+    "1665": "1663331804141",
+    "1666": "1679965163222",
+    "1667": "1696764794996",
+    "1668": "1713732420441",
+    "1669": "1730869760532",
+    "167": 559250,
+    "1670": "1748178403860",
+    "1671": "1765660203785",
+    "1672": "1783316748898",
+    "1673": "1801149892558",
+    "1674": "1819161355740",
+    "1675": "1837352991803",
+    "1676": "1855726521721",
+    "1677": "1874283798852",
+    "1678": "1893026676556",
+    "1679": "1911956875806",
+    "168": 564842,
+    "1680": "1931076382344",
+    "1681": "1950387181911",
+    "1682": "1969890995482",
+    "1683": "1989589941180",
+    "1684": "2009485872364",
+    "1685": "2029580774773",
+    "1686": "2049876501768",
+    "1687": "2070375303853",
+    "1688": "2091079034386",
+    "1689": "2111989811492",
+    "169": 570490,
+    "1690": "2133109753293",
+    "1691": "2154440845531",
+    "1692": "2175985206328",
+    "1693": "2197745086192",
+    "1694": "2219722470862",
+    "1695": "2241919610846",
+    "1696": "2264338889032",
+    "1697": "2286982158778",
+    "1698": "2309852067738",
+    "1699": "2332950469271",
+    "17": 1524,
+    "170": 576194,
+    "1700": "2356280011031",
+    "1701": "2379842811141",
+    "1702": "2403641252491",
+    "1703": "2427677717969",
+    "1704": "2451954590464",
+    "1705": "2476473988100",
+    "1706": "2501238823297",
+    "1707": "2526251214177",
+    "1708": "2551513808396",
+    "1709": "2577028988843",
+    "171": 581955,
+    "1710": "2602799138405",
+    "1711": "2628827169504",
+    "1712": "2655115465028",
+    "1713": "2681666672632",
+    "1714": "2708483439969",
+    "1715": "2735568149929",
+    "1716": "2762923714931",
+    "1717": "2790553047396",
+    "1718": "2818458530212",
+    "1719": "2846643075800",
+    "172": 587774,
+    "1720": "2875109596578",
+    "1721": "2903860740201",
+    "1722": "2932899419090",
+    "1723": "2962228280898",
+    "1724": "2991850502811",
+    "1725": "3021768997249",
+    "1726": "3051986676631",
+    "1727": "3082506453377",
+    "1728": "3113331504672",
+    "1729": "3144464742937",
+    "173": 593651,
+    "1730": "3175909345356",
+    "1731": "3207668489115",
+    "1732": "3239745086634",
+    "1733": "3272142579863",
+    "1734": "3304863881221",
+    "1735": "3337912432661",
+    "1736": "3371291411367",
+    "1737": "3405004259289",
+    "1738": "3439054153613",
+    "1739": "3473444536290",
+    "174": 599587,
+    "1740": "3508178849270",
+    "1741": "3543260534505",
+    "1742": "3578693033943",
+    "1743": "3614480054303",
+    "1744": "3650624772769",
+    "1745": "3687130896057",
+    "1746": "3724002130883",
+    "1747": "3761242183964",
+    "1748": "3798854497250",
+    "1749": "3836843042222",
+    "175": 605582,
+    "1750": "3875211525597",
+    "1751": "3913963654092",
+    "1752": "3953103134421",
+    "1753": "3992634202832",
+    "1754": "4032560566042",
+    "1755": "4072886195531",
+    "1756": "4113615062782",
+    "1757": "4154751139275",
+    "1758": "4196298661259",
+    "1759": "4238261600213",
+    "176": 611637,
+    "1760": "4280644192387",
+    "1761": "4323450674025",
+    "1762": "4366685016611",
+    "1763": "4410351721156",
+    "1764": "4454455023908",
+    "1765": "4498999690644",
+    "1766": "4543989692845",
+    "1767": "4589429796291",
+    "1768": "4635324237227",
+    "1769": "4681677251901",
+    "177": 617753,
+    "1770": "4728494135622",
+    "1771": "4775779124636",
+    "1772": "4823536984721",
+    "1773": "4871772481656",
+    "1774": "4920490381217",
+    "1775": "4969695449184",
+    "1776": "5019392451334",
+    "1777": "5069586153444",
+    "1778": "5120281850824",
+    "1779": "5171484838782",
+    "178": 623930,
+    "1780": "5223199883096",
+    "1781": "5275431749545",
+    "1782": "5328186262967",
+    "1783": "5381468189140",
+    "1784": "5435282823374",
+    "1785": "5489635460976",
+    "1786": "5544531926787",
+    "1787": "5599976986585",
+    "1788": "5655976465209",
+    "1789": "5712536187499",
+    "179": 630169,
+    "1790": "5769661448763",
+    "1791": "5827358073841",
+    "1792": "5885631358042",
+    "1793": "5944487655737",
+    "1794": "6003932262233",
+    "1795": "6063971531903",
+    "1796": "6124611289584",
+    "1797": "6185857360117",
+    "1798": "6247716097873",
+    "1799": "6310193327691",
+    "18": 1649,
+    "180": 636470,
+    "1800": "6373295403941",
+    "1801": "6437028151464",
+    "1802": "6501398454159",
+    "1803": "6566412136868",
+    "1804": "6632076083492",
+    "1805": "6698396648400",
+    "1806": "6765380715495",
+    "1807": "6833034639147",
+    "1808": "6901364773726",
+    "1809": "6970378532665",
+    "181": 642834,
+    "1810": "7040082270334",
+    "1811": "7110482870634",
+    "1812": "7181587746998",
+    "1813": "7253403783328",
+    "1814": "7325937863523",
+    "1815": "7399197401018",
+    "1816": "7473189279712",
+    "1817": "7547920913039",
+    "1818": "7623400243962",
+    "1819": "7699634156381",
+    "182": 649262,
+    "1820": "7776630593261",
+    "1821": "7854396968032",
+    "1822": "7932940694128",
+    "1823": "8012270244043",
+    "1824": "8092393031208",
+    "1825": "8173316998588",
+    "1826": "8255050089144",
+    "1827": "8337600775371",
+    "1828": "8420976470702",
+    "1829": "8505186177160",
+    "183": 655754,
+    "1830": "8590237837710",
+    "1831": "8676139924845",
+    "1832": "8762901440591",
+    "1833": "8850530327909",
+    "1834": "8939035059295",
+    "1835": "9028425166304",
+    "1836": "9118709121429",
+    "1837": "9209896456228",
+    "1838": "9301995643193",
+    "1839": "9395015154819",
+    "184": 662311,
+    "1840": "9488965581723",
+    "1841": "9583855396400",
+    "1842": "9679694130404",
+    "1843": "9776491315293",
+    "1844": "9874256482620",
+    "1845": "9972999163943",
+    "1846": "10072728890817",
+    "1847": "10173456253860",
+    "1848": "10275190784627",
+    "1849": "10377943073735",
+    "185": 668934,
+    "1850": "10481722652741",
+    "1851": "10586540112262",
+    "1852": "10692404983854",
+    "1853": "10799328917196",
+    "1854": "10907322502905",
+    "1855": "11016395272537",
+    "1856": "11126558875772",
+    "1857": "11237823903227",
+    "1858": "11350202004582",
+    "1859": "11463703770453",
+    "186": 675623,
+    "1860": "11578340850520",
+    "1861": "11694123835400",
+    "1862": "11811065433835",
+    "1863": "11929176236442",
+    "1864": "12048467892900",
+    "1865": "12168952052889",
+    "1866": "12290641425149",
+    "1867": "12413547659360",
+    "1868": "12537683464263",
+    "1869": "12663060489537",
+    "187": 682379,
+    "1870": "12789691443923",
+    "1871": "12917587977100",
+    "1872": "13046763856871",
+    "1873": "13177231791977",
+    "1874": "13309004491159",
+    "1875": "13442094663158",
+    "1876": "13576515016715",
+    "1877": "13712280378694",
+    "1878": "13849403457837",
+    "1879": "13987896962885",
+    "188": 689202,
+    "1880": "14127775720701",
+    "1881": "14269053499089",
+    "1882": "14411744065852",
+    "1883": "14555861188792",
+    "1884": "14701419694774",
+    "1885": "14848433351600",
+    "1886": "14996918045197",
+    "1887": "15146887543368",
+    "1888": "15298356672976",
+    "1889": "15451340260887",
+    "189": 696094,
+    "1890": "15605853133965",
+    "1891": "15761911178136",
+    "1892": "15919530279327",
+    "1893": "16078725264402",
+    "1894": "16239512019287",
+    "1895": "16401907488970",
+    "1896": "16565926500316",
+    "1897": "16731585998313",
+    "1898": "16898901868887",
+    "1899": "17067891057025",
+    "19": 1785,
+    "190": 703054,
+    "1900": "17238569448655",
+    "1901": "17410955047826",
+    "1902": "17585064799526",
+    "1903": "17760915648743",
+    "1904": "17938525599527",
+    "1905": "18117911596866",
+    "1906": "18299089526685",
+    "1907": "18482080570221",
+    "1908": "18666901672460",
+    "1909": "18853569778392",
+    "191": 710084,
+    "1910": "19042106069250",
+    "1911": "19232527490024",
+    "1912": "19424853103824",
+    "1913": "19619101973762",
+    "1914": "19815293162949",
+    "1915": "20013445734498",
+    "1916": "20213580869642",
+    "1917": "20415715513371",
+    "1918": "20619872965042",
+    "1919": "20826072287767",
+    "192": 717184,
+    "1920": "21034332544657",
+    "1921": "21244674916948",
+    "1922": "21457120585875",
+    "1923": "21671690732672",
+    "1924": "21888406538574",
+    "1925": "22107291302941",
+    "1926": "22328364088883",
+    "1927": "22551648195759",
+    "1928": "22777164804804",
+    "1929": "23004937215376",
+    "193": 724355,
+    "1930": "23234986608711",
+    "1931": "23467336284167",
+    "1932": "23702009541103",
+    "1933": "23939029678876",
+    "1934": "24178419996846",
+    "1935": "24420203794371",
+    "1936": "24664406488933",
+    "1937": "24911049261767",
+    "1938": "25160159648479",
+    "1939": "25411760948426",
+    "194": 731598,
+    "1940": "25665878579092",
+    "1941": "25922537957957",
+    "1942": "26181762384381",
+    "1943": "26443579393969",
+    "1944": "26708014404203",
+    "1945": "26975094950689",
+    "1946": "27244846450908",
+    "1947": "27517294322342",
+    "1948": "27792466100598",
+    "1949": "28070391439403",
+    "195": 738913,
+    "1950": "28351095756241",
+    "1951": "28634606586716",
+    "1952": "28920951466434",
+    "1953": "29210160049124",
+    "1954": "29502261988515",
+    "1955": "29797284820212",
+    "1956": "30095258197945",
+    "1957": "30396209657319",
+    "1958": "30700170970187",
+    "1959": "31007171790277",
+    "196": 746302,
+    "1960": "31317243889442",
+    "1961": "31630416921411",
+    "1962": "31946720539913",
+    "1963": "32266186516800",
+    "1964": "32588848742049",
+    "1965": "32914736869389",
+    "1966": "33243884788795",
+    "1967": "33576324272120",
+    "1968": "33912087091216",
+    "1969": "34251207136060",
+    "197": 753765,
+    "1970": "34593718296628",
+    "1971": "34939654462895",
+    "1972": "35289051642961",
+    "1973": "35641943726802",
+    "1974": "35998364604394",
+    "1975": "36358348165713",
+    "1976": "36721932536982",
+    "1977": "37089151608177",
+    "1978": "37460043505521",
+    "1979": "37834642118990",
+    "198": 761302,
+    "1980": "38212989811054",
+    "1981": "38595120471689",
+    "1982": "38981072227118",
+    "1983": "39370883203564",
+    "1984": "39764591527250",
+    "1985": "40162235324399",
+    "1986": "40563856957481",
+    "1987": "40969494552719",
+    "1988": "41379190472583",
+    "1989": "41792982843296",
+    "199": 768915,
+    "1990": "42210914027328",
+    "1991": "42633022150902",
+    "1992": "43059353812735",
+    "1993": "43489947139050",
+    "1994": "43924844492317",
+    "1995": "44364092471253",
+    "1996": "44807733438328",
+    "1997": "45255809756012",
+    "1998": "45708368023022",
+    "1999": "46165450601828",
+    "2": 452,
+    "20": 1922,
+    "200": 776604,
+    "2000": "46627104091147",
+    "2001": "47093375089696",
+    "201": 784370,
+    "202": 792213,
+    "203": 800135,
+    "204": 808136,
+    "205": 816217,
+    "206": 824379,
+    "207": 832622,
+    "208": 840948,
+    "209": 849357,
+    "21": 2069,
+    "210": 857850,
+    "211": 866428,
+    "212": 875092,
+    "213": 883842,
+    "214": 892680,
+    "215": 901606,
+    "216": 910622,
+    "217": 919728,
+    "218": 928925,
+    "219": 938214,
+    "22": 2228,
+    "220": 947596,
+    "221": 957071,
+    "222": 966641,
+    "223": 976307,
+    "224": 986070,
+    "225": 995930,
+    "226": 1005889,
+    "227": 1015947,
+    "228": 1026106,
+    "229": 1036367,
+    "23": 2399,
+    "230": 1046730,
+    "231": 1057197,
+    "232": 1067768,
+    "233": 1078445,
+    "234": 1089229,
+    "235": 1100121,
+    "236": 1111122,
+    "237": 1122233,
+    "238": 1133455,
+    "239": 1144789,
+    "24": 2583,
+    "240": 1156236,
+    "241": 1167798,
+    "242": 1179475,
+    "243": 1191269,
+    "244": 1203181,
+    "245": 1215212,
+    "246": 1227364,
+    "247": 1239637,
+    "248": 1252033,
+    "249": 1264553,
+    "25": 2781,
+    "250": 1277198,
+    "251": 1289969,
+    "252": 1302868,
+    "253": 1315896,
+    "254": 1329054,
+    "255": 1342344,
+    "256": 1355767,
+    "257": 1369324,
+    "258": 1383017,
+    "259": 1396847,
+    "26": 2995,
+    "260": 1410815,
+    "261": 1424923,
+    "262": 1439172,
+    "263": 1453563,
+    "264": 1468098,
+    "265": 1482778,
+    "266": 1497605,
+    "267": 1512581,
+    "268": 1527706,
+    "269": 1542983,
+    "27": 3225,
+    "270": 1558412,
+    "271": 1573996,
+    "272": 1589735,
+    "273": 1605632,
+    "274": 1621688,
+    "275": 1637904,
+    "276": 1654283,
+    "277": 1670825,
+    "278": 1687533,
+    "279": 1704408,
+    "28": 3473,
+    "280": 1721452,
+    "281": 1738666,
+    "282": 1756052,
+    "283": 1773612,
+    "284": 1791348,
+    "285": 1809261,
+    "286": 1827353,
+    "287": 1845626,
+    "288": 1864082,
+    "289": 1882722,
+    "29": 3740,
+    "290": 1901549,
+    "291": 1920564,
+    "292": 1939769,
+    "293": 1959166,
+    "294": 1978757,
+    "295": 1998544,
+    "296": 2018529,
+    "297": 2038714,
+    "298": 2059101,
+    "299": 2079691,
+    "3": 491,
+    "30": 4007,
+    "300": 2100487,
+    "301": 2121491,
+    "302": 2142705,
+    "303": 2164132,
+    "304": 2185773,
+    "305": 2207630,
+    "306": 2229706,
+    "307": 2252003,
+    "308": 2274523,
+    "309": 2297268,
+    "31": 4293,
+    "310": 2320240,
+    "311": 2343442,
+    "312": 2366876,
+    "313": 2390544,
+    "314": 2414449,
+    "315": 2438593,
+    "316": 2462978,
+    "317": 2487607,
+    "318": 2512483,
+    "319": 2537607,
+    "32": 4599,
+    "320": 2562983,
+    "321": 2588612,
+    "322": 2614498,
+    "323": 2640642,
+    "324": 2667048,
+    "325": 2693718,
+    "326": 2720655,
+    "327": 2747861,
+    "328": 2775339,
+    "329": 2803092,
+    "33": 4927,
+    "330": 2831122,
+    "331": 2859433,
+    "332": 2888027,
+    "333": 2916907,
+    "334": 2946076,
+    "335": 2975536,
+    "336": 3005291,
+    "337": 3035343,
+    "338": 3065696,
+    "339": 3096352,
+    "34": 5279,
+    "340": 3127315,
+    "341": 3158588,
+    "342": 3190173,
+    "343": 3222074,
+    "344": 3254294,
+    "345": 3286836,
+    "346": 3319704,
+    "347": 3352901,
+    "348": 3386429,
+    "349": 3420293,
+    "35": 5656,
+    "350": 3454495,
+    "351": 3489039,
+    "352": 3523929,
+    "353": 3559168,
+    "354": 3594759,
+    "355": 3630706,
+    "356": 3667013,
+    "357": 3703683,
+    "358": 3740719,
+    "359": 3778126,
+    "36": 6060,
+    "360": 3815907,
+    "361": 3854066,
+    "362": 3892606,
+    "363": 3931532,
+    "364": 3970847,
+    "365": 4010555,
+    "366": 4050660,
+    "367": 4091166,
+    "368": 4132077,
+    "369": 4173397,
+    "37": 6493,
+    "370": 4215130,
+    "371": 4257281,
+    "372": 4299853,
+    "373": 4342851,
+    "374": 4386279,
+    "375": 4430141,
+    "376": 4474442,
+    "377": 4519186,
+    "378": 4564377,
+    "379": 4610020,
+    "38": 6957,
+    "380": 4656120,
+    "381": 4702681,
+    "382": 4749707,
+    "383": 4797204,
+    "384": 4845175,
+    "385": 4893626,
+    "386": 4942562,
+    "387": 4991987,
+    "388": 5041906,
+    "389": 5092325,
+    "39": 7454,
+    "390": 5143248,
+    "391": 5194680,
+    "392": 5246626,
+    "393": 5299092,
+    "394": 5352082,
+    "395": 5405602,
+    "396": 5459657,
+    "397": 5514253,
+    "398": 5569395,
+    "399": 5625088,
+    "4": 534,
+    "40": 7945,
+    "400": 5681338,
+    "401": 5738151,
+    "402": 5795532,
+    "403": 5853487,
+    "404": 5912021,
+    "405": 5971141,
+    "406": 6030852,
+    "407": 6091160,
+    "408": 6152071,
+    "409": 6213591,
+    "41": 8469,
+    "410": 6275726,
+    "411": 6338483,
+    "412": 6401867,
+    "413": 6465885,
+    "414": 6530543,
+    "415": 6595848,
+    "416": 6661806,
+    "417": 6728423,
+    "418": 6795707,
+    "419": 6863664,
+    "42": 9027,
+    "420": 6932300,
+    "421": 7001622,
+    "422": 7071638,
+    "423": 7142354,
+    "424": 7213777,
+    "425": 7285914,
+    "426": 7358773,
+    "427": 7432360,
+    "428": 7506683,
+    "429": 7581749,
+    "43": 9622,
+    "430": 7657566,
+    "431": 7734141,
+    "432": 7811482,
+    "433": 7889596,
+    "434": 7968491,
+    "435": 8048175,
+    "436": 8128656,
+    "437": 8209942,
+    "438": 8292041,
+    "439": 8374961,
+    "44": 10257,
+    "440": 8458710,
+    "441": 8543297,
+    "442": 8628729,
+    "443": 8715016,
+    "444": 8802166,
+    "445": 8890187,
+    "446": 8979088,
+    "447": 9068878,
+    "448": 9159566,
+    "449": 9251161,
+    "45": 10933,
+    "450": 9343672,
+    "451": 9437108,
+    "452": 9531478,
+    "453": 9626792,
+    "454": 9723059,
+    "455": 9820289,
+    "456": 9918491,
+    "457": 10017675,
+    "458": 10117851,
+    "459": 10219029,
+    "46": 11654,
+    "460": 10321219,
+    "461": 10424431,
+    "462": 10528675,
+    "463": 10633961,
+    "464": 10740300,
+    "465": 10847702,
+    "466": 10956178,
+    "467": 11065739,
+    "468": 11176396,
+    "469": 11288159,
+    "47": 12423,
+    "470": 11401040,
+    "471": 11515050,
+    "472": 11630200,
+    "473": 11746501,
+    "474": 11863965,
+    "475": 11982604,
+    "476": 12102429,
+    "477": 12223453,
+    "478": 12345687,
+    "479": 12469143,
+    "48": 13242,
+    "480": 12593834,
+    "481": 12719772,
+    "482": 12846969,
+    "483": 12975438,
+    "484": 13105192,
+    "485": 13236243,
+    "486": 13368605,
+    "487": 13502290,
+    "488": 13637312,
+    "489": 13773684,
+    "49": 14115,
+    "490": 13911420,
+    "491": 14050534,
+    "492": 14191039,
+    "493": 14332949,
+    "494": 14476278,
+    "495": 14621040,
+    "496": 14767250,
+    "497": 14914922,
+    "498": 15064071,
+    "499": 15214711,
+    "5": 580,
+    "50": 14968,
+    "500": 15366857,
+    "501": 15520525,
+    "502": 15675730,
+    "503": 15832487,
+    "504": 15990811,
+    "505": 16150718,
+    "506": 16312225,
+    "507": 16475347,
+    "508": 16640100,
+    "509": 16806500,
+    "51": 15873,
+    "510": 16974564,
+    "511": 17144309,
+    "512": 17315750,
+    "513": 17488907,
+    "514": 17663796,
+    "515": 17840433,
+    "516": 18018836,
+    "517": 18199024,
+    "518": 18381014,
+    "519": 18564823,
+    "52": 16833,
+    "520": 18750472,
+    "521": 18937976,
+    "522": 19127355,
+    "523": 19318629,
+    "524": 19511814,
+    "525": 19706931,
+    "526": 19904001,
+    "527": 20103039,
+    "528": 20304070,
+    "529": 20507110,
+    "53": 17851,
+    "530": 20712180,
+    "531": 20919301,
+    "532": 21128492,
+    "533": 21339776,
+    "534": 21553173,
+    "535": 21768703,
+    "536": 21986390,
+    "537": 22206253,
+    "538": 22428314,
+    "539": 22652596,
+    "54": 18930,
+    "540": 22879121,
+    "541": 23107910,
+    "542": 23338988,
+    "543": 23572377,
+    "544": 23808099,
+    "545": 24046180,
+    "546": 24286641,
+    "547": 24529506,
+    "548": 24774800,
+    "549": 25022547,
+    "55": 20075,
+    "550": 25272773,
+    "551": 25525499,
+    "552": 25780754,
+    "553": 26038561,
+    "554": 26298945,
+    "555": 26561933,
+    "556": 26827551,
+    "557": 27095827,
+    "558": 27366786,
+    "559": 27640453,
+    "56": 21289,
+    "560": 27916856,
+    "561": 28196024,
+    "562": 28477983,
+    "563": 28762763,
+    "564": 29050391,
+    "565": 29340895,
+    "566": 29634304,
+    "567": 29930646,
+    "568": 30229952,
+    "569": 30532251,
+    "57": 22576,
+    "570": 30837574,
+    "571": 31145949,
+    "572": 31457407,
+    "573": 31771981,
+    "574": 32089699,
+    "575": 32410596,
+    "576": 32734701,
+    "577": 33062046,
+    "578": 33392666,
+    "579": 33726592,
+    "58": 23941,
+    "580": 34063857,
+    "581": 34404494,
+    "582": 34748540,
+    "583": 35096025,
+    "584": 35446983,
+    "585": 35801453,
+    "586": 36159466,
+    "587": 36521058,
+    "588": 36886266,
+    "589": 37255126,
+    "59": 25389,
+    "590": 37627678,
+    "591": 38003956,
+    "592": 38383995,
+    "593": 38767835,
+    "594": 39155513,
+    "595": 39547066,
+    "596": 39942534,
+    "597": 40341960,
+    "598": 40745379,
+    "599": 41152833,
+    "6": 631,
+    "60": 26785,
+    "600": 41564359,
+    "601": 41980003,
+    "602": 42399803,
+    "603": 42823801,
+    "604": 43252037,
+    "605": 43684555,
+    "606": 44121401,
+    "607": 44562613,
+    "608": 45008237,
+    "609": 45458317,
+    "61": 28258,
+    "610": 45912898,
+    "611": 46372024,
+    "612": 46835743,
+    "613": 47304100,
+    "614": 47777140,
+    "615": 48254910,
+    "616": 48737460,
+    "617": 49224834,
+    "618": 49717079,
+    "619": 50214250,
+    "62": 29812,
+    "620": 50716390,
+    "621": 51223555,
+    "622": 51735791,
+    "623": 52253149,
+    "624": 52775678,
+    "625": 53303436,
+    "626": 53836469,
+    "627": 54374832,
+    "628": 54918579,
+    "629": 55467765,
+    "63": 31451,
+    "630": 56022441,
+    "631": 56582663,
+    "632": 57148490,
+    "633": 57719972,
+    "634": 58297171,
+    "635": 58880143,
+    "636": 59468944,
+    "637": 60063632,
+    "638": 60664267,
+    "639": 61270910,
+    "64": 33180,
+    "640": 61883620,
+    "641": 62502455,
+    "642": 63127479,
+    "643": 63758754,
+    "644": 64396338,
+    "645": 65040298,
+    "646": 65690698,
+    "647": 66347602,
+    "648": 67011075,
+    "649": 67681186,
+    "65": 35004,
+    "650": 68357995,
+    "651": 69041571,
+    "652": 69731983,
+    "653": 70429303,
+    "654": 71133596,
+    "655": 71844935,
+    "656": 72563384,
+    "657": 73289017,
+    "658": 74021905,
+    "659": 74762122,
+    "66": 36929,
+    "660": 75509740,
+    "661": 76264840,
+    "662": 77027487,
+    "663": 77797762,
+    "664": 78575736,
+    "665": 79361492,
+    "666": 80155102,
+    "667": 80956654,
+    "668": 81766221,
+    "669": 82583885,
+    "67": 38960,
+    "670": 83409726,
+    "671": 84243824,
+    "672": 85086261,
+    "673": 85937125,
+    "674": 86796498,
+    "675": 87664460,
+    "676": 88541107,
+    "677": 89426514,
+    "678": 90320776,
+    "679": 91223982,
+    "68": 41102,
+    "680": 92136222,
+    "681": 93057585,
+    "682": 93988158,
+    "683": 94928040,
+    "684": 95877319,
+    "685": 96836092,
+    "686": 97804456,
+    "687": 98782499,
+    "688": 99770320,
+    "689": 100768022,
+    "69": 43362,
+    "690": 101775703,
+    "691": 102793460,
+    "692": 103821389,
+    "693": 104859604,
+    "694": 105908194,
+    "695": 106967272,
+    "696": 108036943,
+    "697": 109117312,
+    "698": 110208484,
+    "699": 111310563,
+    "7": 686,
+    "70": 45508,
+    "700": 112423664,
+    "701": 113547899,
+    "702": 114683373,
+    "703": 115830208,
+    "704": 116988508,
+    "705": 118158396,
+    "706": 119339982,
+    "707": 120533382,
+    "708": 121738716,
+    "709": 122956106,
+    "71": 47760,
+    "710": 124185663,
+    "711": 125427519,
+    "712": 126681794,
+    "713": 127948608,
+    "714": 129228092,
+    "715": 130520375,
+    "716": 131825578,
+    "717": 133143830,
+    "718": 134475269,
+    "719": 135820015,
+    "72": 50124,
+    "720": 137178214,
+    "721": 138549988,
+    "722": 139935482,
+    "723": 141334841,
+    "724": 142748195,
+    "725": 144175672,
+    "726": 145617435,
+    "727": 147073613,
+    "728": 148544350,
+    "729": 150029794,
+    "73": 52605,
+    "730": 151530088,
+    "731": 153045379,
+    "732": 154575828,
+    "733": 156121580,
+    "734": 157682798,
+    "735": 159259626,
+    "736": 160852226,
+    "737": 162460744,
+    "738": 164085341,
+    "739": 165726195,
+    "74": 55208,
+    "740": 167383452,
+    "741": 169057288,
+    "742": 170747851,
+    "743": 172455332,
+    "744": 174179879,
+    "745": 175921669,
+    "746": 177680878,
+    "747": 179457687,
+    "748": 181252255,
+    "749": 183064776,
+    "75": 57940,
+    "750": 184895413,
+    "751": 186744360,
+    "752": 188611793,
+    "753": 190497908,
+    "754": 192402881,
+    "755": 194326906,
+    "756": 196270179,
+    "757": 198232875,
+    "758": 200215206,
+    "759": 202217350,
+    "76": 60808,
+    "760": 204239515,
+    "761": 206281913,
+    "762": 208344737,
+    "763": 210428181,
+    "764": 212532455,
+    "765": 214657770,
+    "766": 216804351,
+    "767": 218972393,
+    "768": 221162121,
+    "769": 223373747,
+    "77": 63818,
+    "770": 225607479,
+    "771": 227863544,
+    "772": 230142185,
+    "773": 232443611,
+    "774": 234768049,
+    "775": 237115726,
+    "776": 239486883,
+    "777": 241881746,
+    "778": 244300559,
+    "779": 246743563,
+    "78": 66977,
+    "780": 249211001,
+    "781": 251703115,
+    "782": 254220148,
+    "783": 256762343,
+    "784": 259329956,
+    "785": 261923249,
+    "786": 264542477,
+    "787": 267187902,
+    "788": 269859780,
+    "789": 272558371,
+    "79": 70292,
+    "790": 275283949,
+    "791": 278036772,
+    "792": 280817133,
+    "793": 283625288,
+    "794": 286461530,
+    "795": 289326148,
+    "796": 292219402,
+    "797": 295141583,
+    "798": 298092980,
+    "799": 301073919,
+    "8": 746,
+    "80": 73384,
+    "800": 304084656,
+    "801": 307125515,
+    "802": 310196756,
+    "803": 313298732,
+    "804": 316431704,
+    "805": 319596026,
+    "806": 322791989,
+    "807": 326019916,
+    "808": 329280099,
+    "809": 332572893,
+    "81": 76612,
+    "810": 335898621,
+    "811": 339257607,
+    "812": 342650172,
+    "813": 346076674,
+    "814": 349537435,
+    "815": 353032811,
+    "816": 356563124,
+    "817": 360128763,
+    "818": 363730052,
+    "819": 367367345,
+    "82": 79982,
+    "820": 371041030,
+    "821": 374751430,
+    "822": 378498934,
+    "823": 382283929,
+    "824": 386106771,
+    "825": 389967848,
+    "826": 393867514,
+    "827": 397806191,
+    "828": 401784233,
+    "829": 405802062,
+    "83": 83501,
+    "830": 409860064,
+    "831": 413958660,
+    "832": 418098238,
+    "833": 422279218,
+    "834": 426502020,
+    "835": 430767032,
+    "836": 435074706,
+    "837": 439425463,
+    "838": 443819722,
+    "839": 448257904,
+    "84": 87175,
+    "840": 452740494,
+    "841": 457267880,
+    "842": 461840546,
+    "843": 466458945,
+    "844": 471123528,
+    "845": 475834750,
+    "846": 480593094,
+    "847": 485399014,
+    "848": 490252993,
+    "849": 495155517,
+    "85": 91010,
+    "850": 500107070,
+    "851": 505108137,
+    "852": 510159204,
+    "853": 515260787,
+    "854": 520413403,
+    "855": 525617537,
+    "856": 530873706,
+    "857": 536182427,
+    "858": 541544251,
+    "859": 546959693,
+    "86": 95014,
+    "860": 552429271,
+    "861": 557953535,
+    "862": 563533066,
+    "863": 569168381,
+    "864": 574860062,
+    "865": 580608626,
+    "866": 586414720,
+    "867": 592278861,
+    "868": 598201630,
+    "869": 604183610,
+    "87": 99194,
+    "870": 610225446,
+    "871": 616327720,
+    "872": 622491015,
+    "873": 628715912,
+    "874": 635003057,
+    "875": 641353096,
+    "876": 647766612,
+    "877": 654244251,
+    "878": 660786660,
+    "879": 667394548,
+    "88": 103558,
+    "880": 674068499,
+    "881": 680809158,
+    "882": 687617237,
+    "883": 694493381,
+    "884": 701438303,
+    "885": 708452648,
+    "886": 715537191,
+    "887": 722692581,
+    "888": 729919527,
+    "889": 737218740,
+    "89": 108114,
+    "890": 744590932,
+    "891": 752036814,
+    "892": 759557160,
+    "893": 767152748,
+    "894": 774824288,
+    "895": 782572555,
+    "896": 790398261,
+    "897": 798302247,
+    "898": 806285287,
+    "899": 814348157,
+    "9": 811,
+    "90": 112276,
+    "900": 822491633,
+    "901": 830716556,
+    "902": 839023701,
+    "903": 847413908,
+    "904": 855888018,
+    "905": 864446871,
+    "906": 873091308,
+    "907": 881822232,
+    "908": 890640421,
+    "909": 899546843,
+    "91": 116598,
+    "910": 908542275,
+    "911": 917627686,
+    "912": 926803980,
+    "913": 936071998,
+    "914": 945432711,
+    "915": 954887022,
+    "916": 964435901,
+    "917": 974080253,
+    "918": 983821049,
+    "919": 993659257,
+    "92": 121087,
+    "920": 1003595847,
+    "921": 1013631788,
+    "922": 1023768116,
+    "923": 1034005799,
+    "924": 1044345872,
+    "925": 1054789304,
+    "926": 1065337195,
+    "927": 1075990578,
+    "928": 1086750423,
+    "929": 1097617958,
+    "93": 125748,
+    "930": 1108594088,
+    "931": 1119679977,
+    "932": 1130876789,
+    "933": 1142185557,
+    "934": 1153607445,
+    "935": 1165143487,
+    "936": 1176794847,
+    "937": 1188562817,
+    "938": 1200448432,
+    "939": 1212452856,
+    "94": 130589,
+    "940": 1224577381,
+    "941": 1236823170,
+    "942": 1249191387,
+    "943": 1261683326,
+    "944": 1274300149,
+    "945": 1287043149,
+    "946": 1299913619,
+    "947": 1312912723,
+    "948": 1326041883,
+    "949": 1339302261,
+    "95": 135616,
+    "950": 1352695281,
+    "951": 1366222236,
+    "952": 1379884417,
+    "953": 1393683247,
+    "954": 1407620018,
+    "955": 1421696154,
+    "956": 1435913075,
+    "957": 1450272205,
+    "958": 1464774964,
+    "959": 1479422647,
+    "96": 140837,
+    "960": 1494216803,
+    "961": 1509158986,
+    "962": 1524250616,
+    "963": 1539493115,
+    "964": 1554888036,
+    "965": 1570436929,
+    "966": 1586141346,
+    "967": 1602002709,
+    "968": 1618022699,
+    "969": 1634202867,
+    "97": 146259,
+    "970": 1650544893,
+    "971": 1667050329,
+    "972": 1683720855,
+    "973": 1700558024,
+    "974": 1717563644,
+    "975": 1734739268,
+    "976": 1752086704,
+    "977": 1769607505,
+    "978": 1787303610,
+    "979": 1805176570,
+    "98": 151890,
+    "980": 1823228324,
+    "981": 1841460553,
+    "982": 1859875196,
+    "983": 1878473934,
+    "984": 1897258705,
+    "985": 1916231321,
+    "986": 1935393590,
+    "987": 1954747452,
+    "988": 1974294847,
+    "989": 1994037713,
+    "99": 157737,
+    "990": 2013978118,
+    "991": 2034117873,
+    "992": 2054459047,
+    "993": 2075003578,
+    "994": 2095753535,
+    "995": 2116710986,
+    "996": 2137878130,
+    "997": "2159256905",
+    "998": "2180849379",
+    "999": "2202657881"
+  }
+}

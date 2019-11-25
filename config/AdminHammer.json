@@ -1,0 +1,8 @@
+{
+  "ChatCommand": "b",
+  "LogToConsole": true,
+  "PerformanceMode": false,
+  "ShowSphere": false,
+  "ToolDistance": 200.0,
+  "ToolUsed": "hammer"
+}

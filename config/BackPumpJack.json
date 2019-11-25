@@ -1,0 +1,18 @@
+{
+  "List": [
+    {
+      "Permission": "backpumpjack.use",
+      "Priority of permission": 0,
+      "Oil crater chance": 20.0,
+      "Minimum PM size": 5.0,
+      "Maximum PM size": 10.0
+    },
+    {
+      "Permission": "backpumpjack.vip",
+      "Priority of permission": 1,
+      "Oil crater chance": 40.0,
+      "Minimum PM size": 10.0,
+      "Maximum PM size": 20.0
+    }
+  ]
+}

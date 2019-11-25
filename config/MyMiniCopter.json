@@ -1,0 +1,12 @@
+{
+  "Chat Settings": {
+    "Prefix": "[My MiniCopter] :"
+  },
+  "Cooldown (on permission)": {
+    "Use Cooldown": true,
+    "Value in minutes": "60"
+  },
+  "Global": {
+    "Allow spawn when building blocked": false
+  }
+}

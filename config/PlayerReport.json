@@ -1,0 +1,29 @@
+{
+  "Button 1": {
+    "Button 1 AnchorMax": "0.25 0.75",
+    "Button 1 AnchorMin": "0 0.283",
+    "Button 1 Color": "0.41 0.5 0.25 1",
+    "Button 1 Enabled": true
+  },
+  "Button 2": {
+    "Button 2 AnchorMax": "0.625 0.75",
+    "Button 2 AnchorMin": "0.375 0.283",
+    "Button 2 Color": "0.12 0.38 0.57 1",
+    "Button 2 Enabled": true
+  },
+  "Button 3": {
+    "Button 3 AnchorMax": "1 0.75",
+    "Button 3 AnchorMin": "0.75 0.283",
+    "Button 3 Color": "0.57 0.21 0.11 1",
+    "Button 3 Enabled": true
+  },
+  "Settings": {
+    "Discord Webhook URL": "DISCORD WEBHOOK URL",
+    "Enable @here Message in Discord": true,
+    "Enable DiscordMessages": true,
+    "Enable Ticket Reports": true,
+    "GUI Cooldown": 50.0,
+    "Reports needed to send a Report": 1,
+    "Your servername (for discord messages)": "Servername"
+  }
+}

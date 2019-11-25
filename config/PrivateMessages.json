@@ -1,0 +1,9 @@
+{
+  "CooldownTime": 3,
+  "EnableHistory": false,
+  "EnableLogging": true,
+  "UseBetterChatMute": false,
+  "UseCooldown": false,
+  "UseIgnore": false,
+  "UseUFilter": false
+}

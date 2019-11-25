@@ -13,3 +13,11 @@ RustStore.json
 
 config/Discord.json
 config/Rustcord.json
+config/NotifyOnKeyword.json
+
+# Privat plugins
+SkyCraftSystem.cs
+UniversalItems.cs
+UnbreakableTools.cs
+OreBonus.cs
+Cases.cs

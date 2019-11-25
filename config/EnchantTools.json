@@ -1,0 +1,26 @@
+{
+  "CanUseByAllPlayers": true,
+  "Command": "enchanttool",
+  "Tools": [
+    {
+      "canRepair": true,
+      "shortname": "hatchet",
+      "skinId": 0
+    },
+    {
+      "canRepair": true,
+      "shortname": "axe.salvaged",
+      "skinId": 0
+    },
+    {
+      "canRepair": true,
+      "shortname": "pickaxe",
+      "skinId": 0
+    },
+    {
+      "canRepair": true,
+      "shortname": "icepick.salvaged",
+      "skinId": 0
+    }
+  ]
+}

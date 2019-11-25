@@ -1,0 +1,151 @@
+{
+  "Additional Tracking": {
+    "Boats": false,
+    "Bradley APC": true,
+    "CargoShips": false,
+    "Cars": false,
+    "CH47": false,
+    "Helicopter Rotor Health": false,
+    "Helicopters": true,
+    "RHIB": false
+  },
+  "Color-Hex Codes": {
+    "Airdrops": "#ff00ff",
+    "Animals": "#0000ff",
+    "AutoTurrets": "#ffff00",
+    "Backpacks": "#c0c0c0",
+    "Box": "#ff00ff",
+    "Bradley": "#ff00ff",
+    "Collectibles": "#ffff00",
+    "Corpses": "#ffff00",
+    "Distance": "#ffa500",
+    "Health": "#ff0000",
+    "Helicopters": "#ff00ff",
+    "Loot": "#ffff00",
+    "Murderers": "#000000",
+    "Online Dead Player": "#ff0000",
+    "Online Player": "#ffffff",
+    "Player Arrows": "#000000",
+    "Resources": "#ffff00",
+    "Scientist HTN": "#ff00ff",
+    "Scientist Peacekeeper": "#ffff00",
+    "Scientists": "#ffff00",
+    "Sleeping Bags": "#ff00ff",
+    "Sleeping Dead Player": "#ff0000",
+    "Sleeping Player": "#00ffff",
+    "Stash": "#ffffff",
+    "Tool Cupboards": "#000000",
+    "Zombies": "#ff0000"
+  },
+  "Drawing Distances": {
+    "Airdrop Crates": 400.0,
+    "Animals": 200,
+    "Boxes": 100,
+    "Collectibles": 100,
+    "Loot Containers": 150,
+    "Player Corpses": 200,
+    "Players": 500,
+    "Resources (Ore)": 200,
+    "Sleeping Bags": 250,
+    "Stashes": 250,
+    "Tool Cupboards": 100,
+    "Turrets": 100
+  },
+  "Drawing Methods": {
+    "Draw Arrows On Players": false,
+    "Draw Boxes": false,
+    "Draw Text": true
+  },
+  "Group Limit": {
+    "Dead Color": "#ff0000",
+    "Draw Distant Players With X": true,
+    "Group Color Basic": "#ffff00",
+    "Group Colors": [
+      {
+        "0": "magenta",
+        "1": "green",
+        "2": "blue",
+        "3": "orange",
+        "4": "yellow"
+      }
+    ],
+    "Height Offset [0.0 = disabled]": 0.0,
+    "Limit": 4,
+    "Range": 50.0,
+    "Use Group Colors Configuration": true
+  },
+  "GUI": {
+    "Anchor Max": "0.810 0.148",
+    "Anchor Min": "0.667 0.020",
+    "Color Off": "0.29 0.49 0.69 0.5",
+    "Color On": "0.69 0.49 0.29 0.5"
+  },
+  "Map Markers": {
+    "Allow Players To See Their Base": false,
+    "Animals": false,
+    "Bases": false,
+    "Color - Admin": "FF00FF",
+    "Color - Bear": "000000",
+    "Color - Boar": "808080",
+    "Color - Chicken": "9A9A00",
+    "Color - Default NPC": "0000FF",
+    "Color - Horse": "8B4513",
+    "Color - Online": "00FF00",
+    "Color - Privilege Inner": "FFEB04",
+    "Color - Privilege Outer": "000000",
+    "Color - Sleeper": "00FFFF",
+    "Color - Stag": "D2B48C",
+    "Color - Wolf": "FF0000",
+    "Hide Self Marker": true,
+    "Humanoids": false,
+    "Overlap Reduction Distance": 15.0,
+    "Players": false,
+    "Sleepers": false,
+    "Update NPC Marker Position": true
+  },
+  "Options": {
+    "Draw Empty Containers": true,
+    "Only Show NPCPlayers At World View": false,
+    "Show Airdrop Contents": false,
+    "Show Barrel And Crate Contents": false,
+    "Show Resource Amounts": true,
+    "Show Stash Contents": false,
+    "Show X Items In Backpacks [0 = amount only]": 3
+  },
+  "Player Movement Tracker": {
+    "Draw Time": 60.0,
+    "Enabled": false,
+    "Max Reporting Distance": 200.0,
+    "Overlap Reduction Distance": 5.0,
+    "Positions Expire After X Seconds": 600,
+    "Track Admins": false,
+    "Update Tracker Every X Seconds": 1.0
+  },
+  "Settings": {
+    "Barebones Performance Mode": false,
+    "Chat Command": "radar",
+    "Deactivate Radar After X Minutes": 0,
+    "Deactivate Radar After X Seconds Inactive": 300,
+    "Default Distance": 500.0,
+    "Default Refresh Time": 5.0,
+    "Dropped Item Exceptions": [
+      "bottle",
+      "planner",
+      "rock",
+      "torch",
+      "can.",
+      "arrow."
+    ],
+    "Latency Cap In Milliseconds (0 = no cap)": 1000.0,
+    "Objects Drawn Limit (0 = unlimited)": 250,
+    "Restrict Access To Auth Level": 1,
+    "Restrict Access To Steam64 IDs": [],
+    "Use Bypass Permission": false,
+    "User Interface Enabled": true
+  },
+  "Voice Detection": {
+    "Detection Radius": 30.0,
+    "Enabled": true,
+    "Timeout After X Seconds": 3
+  }
+}

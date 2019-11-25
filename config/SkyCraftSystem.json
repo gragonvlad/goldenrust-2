@@ -1,0 +1,106 @@
+{
+  "Настройка системы крафта | SettingsPluign": [
+    {
+      "Включить крафт этого предмета | On-Off craft this item": true,
+      "Права для крафта | Permissions for craft": "SkyCraftSystem.minicopter",
+      "Ссылка на префаб | Prefab [ЕСЛИ ВЫ НЕ ЗНАЕТЕ ЧТО ЭТО - НЕ ТРОГАЙТЕ.ПРОСТО ИСПОЛЬЗУЙТЕ BOOL(TRUE / FALSE)]": "assets/content/vehicles/minicopter/minicopter.entity.prefab",
+      "Shortname заменяемого предмета | Shortname reply items for prefabs": "electric.flasherlight",
+      "Название предмета | DisplayName items": "<size=20>Миникоптер</size>",
+      "Уровень верстака для крафта | WorkBench Level for Craft": 2,
+      "SkinID предмету(С фоткой)": 1764551112,
+      "Ссылка на картинку(512x512) | LINKPNG.png(512x512)": "https://i.imgur.com/SIRebqz.png",
+      "Предметы для крафта | Crafting Items": {
+        "wood": 1500,
+        "stones": 2300,
+        "metal": 2300,
+        "electric.battery.rechargable.small": 1
+      }
+    },
+    {
+      "Включить крафт этого предмета | On-Off craft this item": true,
+      "Права для крафта | Permissions for craft": "SkyCraftSystem.recycler",
+      "Ссылка на префаб | Prefab [ЕСЛИ ВЫ НЕ ЗНАЕТЕ ЧТО ЭТО - НЕ ТРОГАЙТЕ.ПРОСТО ИСПОЛЬЗУЙТЕ BOOL(TRUE / FALSE)]": "assets/bundled/prefabs/static/recycler_static.prefab",
+      "Shortname заменяемого предмета | Shortname reply items for prefabs": "research.table",
+      "Название предмета | DisplayName items": "<size=18>Домашний переработчик</size>",
+      "Уровень верстака для крафта | WorkBench Level for Craft": 1,
+      "SkinID предмету(С фоткой)": 1764552507,
+      "Ссылка на картинку(512x512) | LINKPNG.png(512x512)": "https://i.imgur.com/xXL3d47.png",
+      "Предметы для крафта | Crafting Items": {
+        "wood": 1000,
+        "stones": 5000
+      }
+    },
+    {
+      "Включить крафт этого предмета | On-Off craft this item": true,
+      "Права для крафта | Permissions for craft": "SkyCraftSystem.rowboat",
+      "Ссылка на префаб | Prefab [ЕСЛИ ВЫ НЕ ЗНАЕТЕ ЧТО ЭТО - НЕ ТРОГАЙТЕ.ПРОСТО ИСПОЛЬЗУЙТЕ BOOL(TRUE / FALSE)]": "assets/content/vehicles/boats/rowboat/rowboat.prefab",
+      "Shortname заменяемого предмета | Shortname reply items for prefabs": "electric.hbhfsensor",
+      "Название предмета | DisplayName items": "<size=18>Деревянная лодка</size>",
+      "Уровень верстака для крафта | WorkBench Level for Craft": 2,
+      "SkinID предмету(С фоткой)": 1764552960,
+      "Ссылка на картинку(512x512) | LINKPNG.png(512x512)": "https://i.imgur.com/UGuYMkA.png",
+      "Предметы для крафта | Crafting Items": {
+        "wood": 20000,
+        "electric.battery.rechargable.small": 1
+      }
+    },
+    {
+      "Включить крафт этого предмета | On-Off craft this item": true,
+      "Права для крафта | Permissions for craft": "SkyCraftSystem.rhibboat",
+      "Ссылка на префаб | Prefab [ЕСЛИ ВЫ НЕ ЗНАЕТЕ ЧТО ЭТО - НЕ ТРОГАЙТЕ.ПРОСТО ИСПОЛЬЗУЙТЕ BOOL(TRUE / FALSE)]": "assets/content/vehicles/boats/rhib/rhib.prefab",
+      "Shortname заменяемого предмета | Shortname reply items for prefabs": "electric.sirenlight",
+      "Название предмета | DisplayName items": "<size=19>Военная лодка</size>",
+      "Уровень верстака для крафта | WorkBench Level for Craft": 3,
+      "SkinID предмету(С фоткой)": 1764553295,
+      "Ссылка на картинку(512x512) | LINKPNG.png(512x512)": "https://i.imgur.com/u5QgVGS.png",
+      "Предметы для крафта | Crafting Items": {
+        "wood": 1500,
+        "stones": 50000,
+        "electric.battery.rechargable.small": 1
+      }
+    },
+    {
+      "Включить крафт этого предмета | On-Off craft this item": true,
+      "Права для крафта | Permissions for craft": "SkyCraftSystem.sedan",
+      "Ссылка на префаб | Prefab [ЕСЛИ ВЫ НЕ ЗНАЕТЕ ЧТО ЭТО - НЕ ТРОГАЙТЕ.ПРОСТО ИСПОЛЬЗУЙТЕ BOOL(TRUE / FALSE)]": "assets/content/vehicles/sedan_a/sedantest.entity.prefab",
+      "Shortname заменяемого предмета | Shortname reply items for prefabs": "woodcross",
+      "Название предмета | DisplayName items": "<size=20>Машина</size>",
+      "Уровень верстака для крафта | WorkBench Level for Craft": 2,
+      "SkinID предмету(С фоткой)": 1764553578,
+      "Ссылка на картинку(512x512) | LINKPNG.png(512x512)": "https://i.imgur.com/KMDl39b.png",
+      "Предметы для крафта | Crafting Items": {
+        "wood": 1500,
+        "stones": 2300,
+        "electric.battery.rechargable.small": 1
+      }
+    },
+    {
+      "Включить крафт этого предмета | On-Off craft this item": true,
+      "Права для крафта | Permissions for craft": "SkyCraftSystem.hotairball",
+      "Ссылка на префаб | Prefab [ЕСЛИ ВЫ НЕ ЗНАЕТЕ ЧТО ЭТО - НЕ ТРОГАЙТЕ.ПРОСТО ИСПОЛЬЗУЙТЕ BOOL(TRUE / FALSE)]": "assets/prefabs/deployable/hot air balloon/hotairballoon.prefab",
+      "Shortname заменяемого предмета | Shortname reply items for prefabs": "wall.graveyard.fence",
+      "Название предмета | DisplayName items": "<size=19>Воздушный шар</size>",
+      "Уровень верстака для крафта | WorkBench Level for Craft": 3,
+      "SkinID предмету(С фоткой)": 1764553961,
+      "Ссылка на картинку(512x512) | LINKPNG.png(512x512)": "https://i.imgur.com/86CDnDd.png",
+      "Предметы для крафта | Crafting Items": {
+        "wood": 2281337,
+        "stones": 2300
+      }
+    }
+  ],
+  "Настройка интерфейса | Interface Settings": {
+    "[Главная/Main]Цвет заднего фона | Background color": "#2D2D2D88",
+    "[Главная/Main]Материал заднего фона | Metrial Background": "assets/content/ui/uibackgroundblur.mat",
+    "[Главная/Main]Спрайт заднего фона | Sprite Background": "assets/content/ui/ui.background.transparent.radial.psd",
+    "[Панель предлметов/Panel Items]Цвет заднего фона | Background color": "#76767678",
+    "[Доп.Панель предлметов/Additional Panel Items]Цвет заднего фона | Background color": "#FFFFFF13",
+    "[Цвет верстака/WorkBenchColor]Цвет верстака 0 уровня | WorkBench level - 0": "#0071FF53",
+    "[Цвет верстака/WorkBenchColor]Цвет верстака 1 уровня | WorkBench level - 1": "#16EB8578",
+    "[Цвет верстака/WorkBenchColor]Цвет верстака 2 уровня | WorkBench level - 2": "#FF73008C",
+    "[Цвет верстака/WorkBenchColor]Цвет верстака 3 уровня | WorkBench level - 3": "#EB173678",
+    "Цвет кнопки | Color Button": "#2ABD86FF",
+    "Цвет панели с ресурсом,если конкретный ресурс собран | The color of the resource panel, if a specific resource is compiled": "#A60D0D2F",
+    "Цвет панели с ресурсом,если конкретный ресурс не собран | Color of the panel with the resource, if a specific resource is not assembled": "#1FB91931"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "Enable: Welcome Message": true,
+  "Enable: Join Messages": true,
+  "Enable: Leave Messages": true,
+  "Chat Icon (SteamID64)": 0,
+  "Display Steam Avatar of Player - Join/Leave": true,
+  "Print To Console - Join/Leave": true
+}

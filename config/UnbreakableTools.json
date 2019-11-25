@@ -1,0 +1,10 @@
+{
+  "JoinMessage": "Welcome to this server",
+  "LeaveMessage": "Goodbye",
+  "ListOfBuildingBlocks": [
+    "foundation",
+    "wall"
+  ],
+  "ShowJoinMessage": true,
+  "ShowLeaveMessage": true
+}

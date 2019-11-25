@@ -1,0 +1,22 @@
+{
+  "Chat Settings": {
+    "ChatColor": "#a0ffb5",
+    "Color For Winner Name": "#4fffc7",
+    "Color Of Math Expression": "#e2ffe9",
+    "Prefix": "[TellMeX] ",
+    "PrefixColor": "#47ff6f"
+  },
+  "Economics Settings": {
+    "Economic$ on Lose": 1,
+    "Economic$ on Win": 5,
+    "Use Economics": false
+  },
+  "Rewards Settings": {
+    "RP Points on Lose": 1,
+    "RP Points on Win": 5,
+    "Use Server Rewards": true
+  },
+  "Settings": {
+    "SteamIDIcon": 76561198842176097
+  }
+}

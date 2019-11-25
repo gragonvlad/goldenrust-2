@@ -1,0 +1,39 @@
+﻿{
+  "Settings": {
+    "ChatEditCommand": "gatherrewards",
+    "ConsoleEditCommand": "gatherrewards",
+    "EditPermission": "gatherrewards.canedit",
+    "PluginPrefix": "<color=#00ffffff>[GatherRewards]</color>",
+    "Rewards": {
+      "Bear": 15.0,
+      "Boar": 5.0,
+      "Breathe": 1.0,
+      "Chicken": 1.0,
+      "Clan Member": -10.0,
+      "Corn": 1.0,
+      "Death": 1.0,
+      "Heavyscientist": 25.0,
+      "Hemp": 1.0,
+      "Horse": 3.0,
+      "Humannpc": 1.0,
+      "Murderer": 15.0,
+      "Mushroom": 0.5,
+      "Npcplayertest": 1.0,
+      "Ore": 1.0,
+      "Player": 10.0,
+      "Player's Friend": -10.0,
+      "Pumpkin": 1.0,
+      "Scientist": 10.0,
+      "Scientistnpc": 10.0,
+      "Stag": 3.0,
+      "Stone": 1.0,
+      "Wolf": 5.0,
+      "Wood": 1.0,
+      "Zombie": 15.0
+    },
+    "ShowMessagesOnGather": false,
+    "ShowMessagesOnKill": true,
+    "UseEconomics": false,
+    "UseServerRewards": true
+  }
+}

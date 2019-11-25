@@ -1,0 +1,28 @@
+{
+  "1.Types of loot to spawn": {
+    "Ammo": true,
+    "Guns": true,
+    "Medicine": true
+  },
+  "2.Chances of drop": {
+    "Ammo": 0.3,
+    "Guns": 0.25,
+    "Meds": 0.3
+  },
+  "3.Amounts": {
+    "Ammo Max": 120,
+    "Ammo Min": 20,
+    "Condition Max": 1.0,
+    "Condition Min": 0.1,
+    "Gun Ammo Max": 30,
+    "Gun Ammo Min": 0,
+    "Meds Max": 5,
+    "Meds Min": 0
+  },
+  "4.Utility": {
+    "Assign random skin to item": true,
+    "Drop items near the corpse if it's full": true,
+    "Put held items into inventory": true,
+    "Remove default loot": false
+  }
+}
