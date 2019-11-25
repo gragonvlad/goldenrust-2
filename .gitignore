@@ -1,12 +1,20 @@
 /logs/*
 
 /data/*
+/data/CCases/Players.json
+/data/ServerRewards/cooldown_data.json
+/data/ServerRewards/npc_data.json
+/data/ServerRewards/player_data.json
+
 !/data/BetterLoot/
+!/data/CCases/
 !/data/copypaste/
+!/data/ServerRewards/
 !/data/Kits.json
 !/data/death.png
 !/data/hit.png
 !/data/StackSizeController.json
+
 
 GameStoresRUST.json
 RustStore.json

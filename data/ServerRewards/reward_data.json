@@ -1,0 +1,163 @@
+﻿{
+  "items": {
+    "scrap_0": {
+      "shortname": "scrap",
+      "customIcon": null,
+      "amount": 10,
+      "skinId": 0,
+      "isBp": false,
+      "category": 4,
+      "displayName": "Scrap",
+      "cost": 10,
+      "cooldown": 0
+    },
+    "scrap_0_284": {
+      "shortname": "scrap",
+      "customIcon": null,
+      "amount": 100,
+      "skinId": 0,
+      "isBp": false,
+      "category": 4,
+      "displayName": "Scrap",
+      "cost": 100,
+      "cooldown": 0
+    },
+    "scrap_0_273": {
+      "shortname": "scrap",
+      "customIcon": null,
+      "amount": 1000,
+      "skinId": 0,
+      "isBp": false,
+      "category": 4,
+      "displayName": "Scrap",
+      "cost": 1000,
+      "cooldown": 0
+    },
+    "scrap_0_453": {
+      "shortname": "scrap",
+      "customIcon": null,
+      "amount": 10000,
+      "skinId": 0,
+      "isBp": false,
+      "category": 4,
+      "displayName": "Scrap",
+      "cost": 10000,
+      "cooldown": 0
+    },
+    "surveycharge_10_453": {
+      "shortname": "surveycharge",
+      "customIcon": null,
+      "amount": 10,
+      "skinId": 0,
+      "isBp": false,
+      "category": 4,
+      "displayName": "Survey Charge",
+      "cost": 2000,
+      "cooldown": 0
+    }
+  },
+  "kits": {},
+  "commands": {
+    "instacraft_1d": {
+      "description": "Instant Craft for 1 day",
+      "iconName": null,
+      "commands": [
+        "grantperm $player.id instantcraft.use 1d"
+      ],
+      "displayName": "Instant Craft",
+      "cost": 1000,
+      "cooldown": 0
+    },
+    "instasmelt_1h": {
+      "description": "Instant Smelt for 1 hour (use /ismelt on or off)",
+      "iconName": null,
+      "commands": [
+        "grantperm $player.id instantsmelt.use 1h"
+      ],
+      "displayName": "Instant Craft",
+      "cost": 2000,
+      "cooldown": 0
+    },
+    "personal_heli_2d": {
+      "description": "Personal Heli for 2 days (use /callheli)",
+      "iconName": null,
+      "commands": [
+        "grantperm $player.id personalheli.use 2d"
+      ],
+      "displayName": "Personal Heli",
+      "cost": 1000,
+      "cooldown": 172800
+    },
+    "personal_minicopter_2d": {
+      "description": "Personal minicopter for 2 days (use /mymini, /nomini)",
+      "iconName": null,
+      "commands": [
+        "grantperm $player.id myminicopter.spawn 2d"
+      ],
+      "displayName": "Personal Minicopter",
+      "cost": 1000,
+      "cooldown": 172800
+    },
+    "personal_recycler": {
+      "description": "Recycler for personal use",
+      "iconName": null,
+      "commands": [
+        "oxide.grant user $player.id extendedrecycler.use",
+        "recycler.give $player.id"
+      ],
+      "displayName": "Personal recycler",
+      "cost": 1000,
+      "cooldown": 172800
+    },
+    "unbreakabletools_1d": {
+      "description": "Unbreakable tools (for 1 day)",
+      "iconName": null,
+      "commands": [
+        "grantperm $player.id unbreakabletools.use 1d"
+      ],
+      "displayName": "Unbreakable tools",
+      "cost": 1000,
+      "cooldown": 172800
+    },
+    "magic_pickaxe": {
+      "description": "",
+      "iconName": null,
+      "commands": [
+        "enchanttool pickaxe $player.id"
+      ],
+      "displayName": "Magic pickaxe",
+      "cost": 750,
+      "cooldown": 172800
+    },
+    "magic_salvaged_icepick": {
+      "description": "",
+      "iconName": null,
+      "commands": [
+        "enchanttool icepick.salvaged $player.id"
+      ],
+      "displayName": "Magic salvaged icepick",
+      "cost": 1000,
+      "cooldown": 60
+    },
+    "magic_hatchet": {
+      "description": "",
+      "iconName": null,
+      "commands": [
+        "enchanttool hatchet $player.id"
+      ],
+      "displayName": "Magic hatchet",
+      "cost": 500,
+      "cooldown": 60
+    },
+    "magic_hatchet": {
+      "description": "",
+      "iconName": null,
+      "commands": [
+        "grantperm $player.id skins.use 7d"
+      ],
+      "displayName": "Skins for 7 days (use /skin)",
+      "cost": 1000,
+      "cooldown": 60
+    }
+  }
+}
