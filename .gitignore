@@ -1,0 +1,15 @@
+/logs/*
+
+/data/*
+!/data/BetterLoot/
+!/data/copypaste/
+!/data/Kits.json
+!/data/death.png
+!/data/hit.png
+!/data/StackSizeController.json
+
+GameStoresRUST.json
+RustStore.json
+
+config/Discord.json
+config/Rustcord.json
